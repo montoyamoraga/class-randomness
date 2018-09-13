@@ -89,7 +89,7 @@ Create a visual art piece that uses randomness.
 ### Week 4: Introduction to randomness and video manipulation
 
 Topics:
-* Guman vision temporal sensitivity
+* Human vision temporal sensitivity
 * Introduction to VidPy
 * Video format conversion
 * Frame rate manipulation
