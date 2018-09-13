@@ -1,4 +1,4 @@
-# class-randomness-for-multimedia-artists
+# class-randomness-for-multimedia-arts
 
 ## About
 
