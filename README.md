@@ -6,9 +6,11 @@ This is a class by [Aarón Montoya-Moraga](http://montoyamoraga.io/).
 
 It is taught in 4 weeks, one 2-hour class every week.
 
+Randomness is the lack of pattern and or predictability in patterns. Randomness allows us to model real-world events that have a set of possible outcomes but unpredictable results, such as weather, coin-tossing, dice-throwing, and white noise. With computers we can model and parameterize different types of randomness and we can apply randomness to art, like it has been done in genres such as [aleatoric music](https://en.wikipedia.org/wiki/Aleatoric_music) and [automatic drawing](https://en.wikipedia.org/wiki/Surrealist_automatism#Automatic_drawing), and by artists like [Lillian Schwartz](https://en.wikipedia.org/wiki/Lillian_Schwartz), [Max Hawkins](https://maxhawkins.me/) and [John Cage](https://en.wikipedia.org/wiki/John_Cage), and featured by institutions such as the [Random Institute](https://en.wikipedia.org/wiki/Random_Institute).
+
 We will cover math for randomness and probabilities, programming with scripts, programming audio synthesis and manipulation, computer graphics, video manipulation, and web concepts.
 
-Applicants from diverse backgrounds, with varied skillsets and interests are welcome. =
+Applicants from diverse backgrounds, with varied skillsets and interests are welcome.
 
 Don't feel discouraged if you know nothing about any of these topics, if you can use a computer you will be able to follow and learn in every class.
 
@@ -47,14 +49,16 @@ There are also several links for further reading and studying.
 
 Topics:
 * Randomness
+* Randomness and computers
 * Gaussian and uniform distributions
-* Poission and Markov chains
-* Normalization
-* Python and math
+* Poission and Markovs chains
+* Normalization of signals
+* Python for math and randomness
+* Randomness on the internet: random.org
 
 Assignment:
 
-Write a Python script that
+Write a Python script that outputs random numbers.
 
 ### Week 2: Introduction to randomness and sound art
 
