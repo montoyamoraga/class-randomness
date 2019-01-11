@@ -175,8 +175,32 @@ You should see the following on the command line:
 
 ![alt text](https://github.com/montoyamoraga/class-randomness-is-all-around/raw/master/pics/week1-00-testing.png "Testing script")
 
+Now we will use the random functions of Python. We don't need to install them, but we do need to import them. We will use it to output a random number.
 
+Here is the result
 
+```python
+# 00-random-number.py
+# written by montoyamoraga
+# runs with Python3
+# date: 2019-01-11
+
+# script that outputs a random number
+print ("execute 01-random-number.py")
+
+# import Python modules
+# random module documentation
+# https://docs.python.org/3.7/library/random.html
+import random
+
+# use random module to get a random number
+# use the random() function of the random module
+# random() returns the next random floating point number in the range [0.0, 1.0).
+number = random.random()
+
+# print number on the command-line
+print(number)
+```
 
 
 
