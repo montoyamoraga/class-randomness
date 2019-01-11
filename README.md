@@ -170,7 +170,17 @@ cd week1/
 Create a virtual environment on it with Python3
 
 ```bash
+python3 -m venv env
 ```
+
+If it is successful, you should see a new folder called env/ inside of the folder week1/.
+
+Now activate the virtual environment by executing the command
+
+```
+source env/bin/activate
+```
+
 
 
 Now let's setup our environment yay.
