@@ -89,16 +89,19 @@ Today we will a text editor to write code using the language Python3, and will e
 
 Let's open our command-line interface and check that we have Python3 installed.
 
-These are the results in my computer
-
 ```bash
 python
 ```
 
+![alt text](https://github.com/montoyamoraga/class-randomness-is-all-around/raw/master/pics/week1-python2-example.png "Python2 example")
 
 ```bash
 python3
 ```
+
+![alt text](https://github.com/montoyamoraga/class-randomness-is-all-around/raw/master/pics/week1-python3-example.png "Python3 example")
+
+
 
 To exit, type the command
 
@@ -106,8 +109,7 @@ To exit, type the command
 exit()
 ```
 
-Inline-style:
-![alt text](https://github.com/montoyamoraga/class-randomness-is-all-around/raw/master/pics/week1-python2-example.png "Python2 example")
+
 
 
 ###
