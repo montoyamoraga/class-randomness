@@ -87,7 +87,7 @@ brew install python3
 * Python for math and randomness
 * Randomness on the internet: random.org
 
-### Notes
+### Week 1 notes
 
 Today we will a text editor to write code using the language Python3, and will execute our scripts using the command-line interface.
 
@@ -145,11 +145,43 @@ Here are some additional [instructions for Windows](https://wsvincent.com/instal
 
 If you are running into trouble, contact the instructor of this class.
 
-###
+Python can do math, but sometimes we will include libraries, which are snippets of code that other people wrote and that we can use. We can install them on our hard drive, but it is a lot of clutter and also it's easy to break things when all your Python scripts share their dependencies. We will use virtual environments instead, so that each project we write, will only use its own libraries, and not the ones that are installed globally in your computer. This is called scope limiting.
 
-Assignment:
+Let's setup our virtual environment yay.
 
-Write a Python script that outputs random numbers.
+Let's open the terminal and navigate to the folder of this class.
+
+```bash
+cd Desktop/class-randomness-is-all-around-master/
+```
+
+To check that we are in the right folder, list the contents of the terminal.
+
+```bash
+ls
+```
+
+Let's use week1 and navigate to this folder.
+
+```bash
+cd week1/
+```
+
+Create a virtual environment on it with Python3
+
+```bash
+```
+
+
+Now let's setup our environment yay.
+
+Pseudo-randomness
+
+
+
+## Assignment
+
+Write a Python script that outputs random numbers in a creative way. Write Write a blog post about the way your Python script works, include your inspiration, your successes, your shortcomings and failures, and include your research and doubts about randomness.
 
 ## Week 2: Introduction to randomness and sound art
 
