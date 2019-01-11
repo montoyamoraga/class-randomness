@@ -145,6 +145,14 @@ Here are some additional [instructions for Windows](https://wsvincent.com/instal
 
 If you are running into trouble, contact the instructor of this class.
 
+Let's start writing Python code.
+
+Inside of the folder week1, create a file called script.py.
+
+We will encourage good manners and good practices in programming, such as using comments to explain and document the code we are writing.
+
+
+
 Python can do math, but sometimes we will include libraries, which are snippets of code that other people wrote and that we can use. We can install them on our hard drive, but it is a lot of clutter and also it's easy to break things when all your Python scripts share their dependencies. We will use virtual environments instead, so that each project we write, will only use its own libraries, and not the ones that are installed globally in your computer. This is called scope limiting.
 
 Let's setup our virtual environment yay.
@@ -175,15 +183,23 @@ python3 -m venv env
 
 If it is successful, you should see a new folder called env/ inside of the folder week1/.
 
-Now activate the virtual environment by executing the command
+Now activate the virtual environment by executing the command.
 
 ```
 source env/bin/activate
 ```
 
+You should see *(env)* appear on your command-line.
+
+We will the library [Tracery for Python](https://github.com/aparrish/pytracery) by [Allison Parrish](http://www.decontextualize.com/), a Python port of the original [Tracery](http://tracery.io/) by [Kate Compton](http://www.galaxykate.com/).
+
+To install it we will use pip, by executing the following command.
+
+```bash
+pip install tracery
+```
 
 
-Now let's setup our environment yay.
 
 Pseudo-randomness
 
