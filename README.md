@@ -151,8 +151,12 @@ Inside of the folder week1, create a file called script.py.
 
 We will encourage good manners and good practices in programming, such as using comments to explain and document the code we are writing.
 
+In programming languages, we can write comments: lines of code that are skipped by the computer and are only intended for human reading. They are useful for documentation and for explaining what each block of code does. In Python, if you type a "#" at the beginning of the line, it becomes a comment. Comments are also useful to skip lines of code that are buggy or we are testing, and instead of deleting we can keep them for future reference.
+
+Write the following script:
+
 ```python
-# script.py
+# 00-testing.py
 # written by X
 # runs with Python3
 # date: yyymmdd
@@ -161,7 +165,17 @@ We will encourage good manners and good practices in programming, such as using 
 print("testing")
 ```
 
-In programming languages, we can write comments: lines of code that are skipped by the computer and are only intended for human reading. They are useful for documentation and for explaining what each block of code does. In Python, if you type a "#" at the beginning of the line, it becomes a comment. Comments are also useful to skip lines of code that are buggy or we are testing, and instead of deleting we can keep them for future reference.
+To run this code, execute it on the command-line:
+
+```python
+python3 00-testing.py
+```
+
+You should see the following on the command line:
+
+![alt text](https://github.com/montoyamoraga/class-randomness-is-all-around/raw/master/pics/week1-00-testing.png "Testing script")
+
+
 
 
 
