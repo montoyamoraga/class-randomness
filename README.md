@@ -106,6 +106,9 @@ To exit, type the command
 exit()
 ```
 
+Inline-style:
+![alt text](https://github.com/montoyamoraga/class-randomness-is-all-around/raw/master/pics/week1-python2-example.png "Python2 example")
+
 
 ###
 
