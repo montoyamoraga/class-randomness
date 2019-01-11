@@ -56,7 +56,8 @@ For this class we will be using the following applications, software and tools:
 * [Command line interface](https://en.wikipedia.org/wiki/Command-line_interface), environment for executing code. In Mac and Linux it is called "Terminal" and in Windows it is called "Command prompt".
 * [Processing](https://processing.org/), software for programming interactive audiovisual applications. App installed is called "Processing".
 * [Pure Data](http://puredata.info/), software for computer music. App installed is called "Pd-0.49-1".
-* [Python 3](https://www.python.org/), programming language for general programming. To check if you have Python installed, open your "Command Line interface" and execute the command
+* [Python 3](https://www.python.org/), programming language for general programming. To check if you have Python installed, open your "Command Line interface" and execute the command.
+* [Text editor](https://en.wikipedia.org/wiki/Text_editor), software to write code. Two options are recommended, [Atom](https://atom.io/) or [Sublime Text](https://www.sublimetext.com/).
 
 ```
 python
@@ -72,7 +73,8 @@ brew install python3
 
 ## Week 1: Introduction to randomness and programming with Python
 
-Topics:
+### Topics
+
 * Randomness
 * Randomness and computers
 * Gaussian and uniform distributions
@@ -80,6 +82,30 @@ Topics:
 * Normalization of signals
 * Python for math and randomness
 * Randomness on the internet: random.org
+
+### Notes
+
+Today we will a text editor to write code using the language Python3, and will execute our scripts using the command-line interface.
+
+Let's open our command-line interface and check that we have Python3 installed.
+
+These are the results in my computer
+
+```bash
+python
+```
+
+
+```bash
+python3
+```
+
+To exit, type the command
+
+```bash
+exit()
+```
+
 
 ###
 
