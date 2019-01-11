@@ -180,13 +180,12 @@ Now we will use the random functions of Python. We don't need to install them, b
 Here is the result
 
 ```python
-# 00-random-number.py
+# 01-random-number.py
 # written by montoyamoraga
 # runs with Python3
 # date: 2019-01-11
 
 # script that outputs a random number
-print ("execute 01-random-number.py")
 
 # import Python modules
 # random module documentation

@@ -1,4 +1,4 @@
-# 00-random-number.py
+# 01-random-number.py
 # written by montoyamoraga
 # runs with Python3
 # date: 2019-01-11
