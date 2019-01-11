@@ -151,7 +151,15 @@ Inside of the folder week1, create a file called script.py.
 
 We will encourage good manners and good practices in programming, such as using comments to explain and document the code we are writing.
 
+```python
+# script.py
+# written by X
+# runs with Python3
+# date: yyymmdd
 
+# print message on console
+print("testing")
+```
 
 Python can do math, but sometimes we will include libraries, which are snippets of code that other people wrote and that we can use. We can install them on our hard drive, but it is a lot of clutter and also it's easy to break things when all your Python scripts share their dependencies. We will use virtual environments instead, so that each project we write, will only use its own libraries, and not the ones that are installed globally in your computer. This is called scope limiting.
 
