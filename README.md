@@ -6,6 +6,10 @@
 
 *Randomness is all around* was taught at [School of Ma](http://schoolofma.org/), in an online non-presential way, over 4 weeks, one three-hour class every week, between Monday January 14th 2019 and Monday February 4th 2019.
 
+### Code of conduct
+
+This class is part of School of Ma, and will be ruled by their code of conduct.
+
 ## Description
 
 Randomness is the lack of pattern and or predictability in patterns. Randomness is all around us and is what drives natural events such as the weather and dice-throwing. Randomness is behind noise, and noise is present in every sensor measurement, including our audiovisual perception of the world. Randomness is what makes vinyls sound different than digital audio and film look different than digital video.
@@ -89,19 +93,37 @@ Today we will a text editor to write code using the language Python3, and will e
 
 Let's open our command-line interface and check that we have Python3 installed.
 
+Execute this command
+
 ```bash
 python
 ```
 
+This is what I see on my computer.
+
 ![alt text](https://github.com/montoyamoraga/class-randomness-is-all-around/raw/master/pics/week1-python2-example.png "Python2 example")
+
+In my computer, a Macbook running macOS, *python* is an alias for Python2.
+
+If your computer shows Python3, then you are ready to go, and you will execute your code using the command *python*, yay.
+
+To exit, execute the command
+
+```bash
+exit()
+```
+
+If *python* doesn't correspond to Python3, let's execute now the command python3.
 
 ```bash
 python3
 ```
 
+This is what I see on my computer, a Macbook running macOS.
+
 ![alt text](https://github.com/montoyamoraga/class-randomness-is-all-around/raw/master/pics/week1-python3-example.png "Python3 example")
 
-
+If your computer shows Python3, then you are ready to go, and you will execute your code using the command *python3*, yay.
 
 To exit, type the command
 
@@ -109,8 +131,19 @@ To exit, type the command
 exit()
 ```
 
+I managed to install Python3 and made it available using the commmand python3 on my computer by installing [Homebrew](https://brew.sh/) and then installing Python3 by executing the command
 
+```bash
+brew install python3
+```
 
+If you still haven't been able to use Python3 on your machine, either via the command *python* or *python3*, you need to both install it and then making it available from the terminal.
+
+In Windows, I suggest using the installer from the official [Python website](https://www.python.org/), and making sure that you select the option *Add Python 3.x to the PATH*. After installing I suggest restarting your Windows computer and checking if Python is accessible from the command-line.
+
+Here are some additional [instructions for Windows](https://wsvincent.com/install-python3-windows/).
+
+If you are running into trouble, contact the instructor of this class.
 
 ###
 
