@@ -1,10 +1,12 @@
-# class-randomness-for-multimedia-arts
+# class-randomness-is-all-around
 
 ## About
 
 This is a class by [Aarón Montoya-Moraga](http://montoyamoraga.io/).
 
-It is taught in 4 weeks, one 2-hour class every week.
+This class was taught at [School of Ma](http://schoolofma.org/), in an online non-presential way, over 4 weeks, one three-hour class every week, between Monday January 14th 2019 and Monday February 4th 2019.
+
+## Description
 
 Randomness is the lack of pattern and or predictability in patterns. Randomness is all around us and is what drives natural events such as the weather and dice-throwing. Randomness is behind noise, and noise is present in every sensor measurement, including our audiovisual perception of the world. Randomness is what makes vinyls sound different than digital audio and film look different than digital video.
 
@@ -44,6 +46,14 @@ Students are encouraged to ask questions and branch out from the proposed timeli
 All the notes and code written is included on this GitHub repository, so that students can focus on following along the coding examples and not worry about taking notes or missing out.
 
 There are also several links for further reading and studying.
+
+## Software needed in your computer
+
+* [ChucK](http://chuck.cs.princeton.edu/), installs an executable called miniAudicle.
+* [Processing](https://processing.org/), installs an executable called Processing.
+* [Pure Data](http://puredata.info/), installs an executable called Pd-0.49-1.
+
+If you are working on a Mac, I recommend to additionally install the package manager [homebrew](https://brew.sh It might take a while and uses some Xcode components.
 
 ## Classes
 
