@@ -2,9 +2,9 @@
 
 ## About
 
-This is a class by [Aarón Montoya-Moraga](http://montoyamoraga.io/).
+*Randomness is all around* is a class by [Aarón Montoya-Moraga](http://montoyamoraga.io/).
 
-This class was taught at [School of Ma](http://schoolofma.org/), in an online non-presential way, over 4 weeks, one three-hour class every week, between Monday January 14th 2019 and Monday February 4th 2019.
+*Randomness is all around* was taught at [School of Ma](http://schoolofma.org/), in an online non-presential way, over 4 weeks, one three-hour class every week, between Monday January 14th 2019 and Monday February 4th 2019.
 
 ## Description
 
