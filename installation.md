@@ -95,15 +95,36 @@ You should now see this on your computer. If not, try restarting the computer an
 
 ### Python 3 installation for Windows
 
-Windows usually doesn't have Python installed. We will install Python 3 and use it with our [command-line interface tool](https://en.wikipedia.org/wiki/Command-line_interface).
+Windows usually doesn't have Python installed. We will install Python 3 and use it with our [command-line interface](https://en.wikipedia.org/wiki/Command-line_interface).
 
-Depending on your Windows version,
+Depending on your Windows version, you may have different softwares for  command-line interface, including [Command prompt](https://en.wikipedia.org/wiki/Cmd.exe) and [PowerShell](https://en.wikipedia.org/wiki/PowerShell). If you have both, I recommend using PowerShell over Command prompt, but both are fine.
 
-In Mac and Linux it is called "Terminal" and in Windows it is called "Command prompt".
-App installed is called "Processing".
+During this class I will refer to commands with UNIX syntax that work in both Mac and Linux, but have a different syntax in Windows. You can optionally install [Gow](https://github.com/bmatzelle/gow/releases), in order to be able to use UNIX syntax on Windows.
 
-* [Python 3](https://www.python.org/), To check if you have Python installed, open your "Command Line interface" and execute the command.
+To check if you have Python installed, open your command prompt and execute the command.
 
+```bash
+python
+```
 
+If you see this, yay, you have Python 3 installed and you will be using the command *python* during this class.
 
-TODO: add more instructions
+TODO
+
+If you see this screen, that means that the command *python* is tied to Python 2, so let's check if you have Python 3 installed by executing the following command.
+
+```bash
+python3
+```
+
+If you see this, yay, you have Python 3 installed and you will be using the command *python3* during this class.
+
+If you see this screen, you don't have Python3 installed yet, so let's continue with the installation.
+
+Go to [python.org/](https://www.python.org/) and continue to the [Python Releses for Windows](https://www.python.org/downloads/windows/) section available in the Downloads Menu.
+
+Download the installer for the latest Python 3 release, which would be 3.7.2 as of today, January 12th 2019.
+
+When you are going through the installation, make sure to select the option "Add Python 3 to PATH", in order to make Python 3 available to execute from the Command prompt.
+
+![alt text](https://github.com/montoyamoraga/class-randomness-is-all-around/raw/master/pics/week1-python-windows.png "Python Windows")
