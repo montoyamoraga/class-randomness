@@ -111,21 +111,19 @@ python
 
 If you see this, yay, you have Python 3 installed and you will be using the command *python* during this class.
 
-TODO
+![alt text](https://github.com/montoyamoraga/class-randomness-is-all-around/raw/master/pics/windows-python3-powershell.png "Python3 on Windows Powershell")
 
-If you see this screen, that means that the command *python* is tied to Python 2, so let's check if you have Python 3 installed by executing the following command.
+If you see that screen but with Python 2 instead of 3, that means that the command *python* is tied to Python 2. Check if the command *python3* works for Python 3.
 
 ```bash
 python3
 ```
 
-If you see this, yay, you have Python 3 installed and you will be using the command *python3* during this class.
+If you see something like this, yay, you have Python 3 installed and you will be using the command *python3* during this class. Note that the below picture shows the command *python*, because that is the way I configured it on my computer.
 
-TODO
+![alt text](https://github.com/montoyamoraga/class-randomness-is-all-around/raw/master/pics/windows-python3-powershell.png "Python3 on Windows Powershell")
 
-If you see this screen, you don't have Python3 installed yet, so let's continue with the installation.
-
-TODO
+If you saw an error message, you don't have Python3 installed yet, so let's continue with the installation.
 
 Go to [python.org/](https://www.python.org/) and continue to the [Python Releses for Windows](https://www.python.org/downloads/windows/) section available in the Downloads Menu.
 
