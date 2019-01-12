@@ -6,13 +6,28 @@
 
 *Randomness is all around* was taught at [School of Ma](http://schoolofma.org/), in an online non-presential way, over 4 weeks, one three-hour class every week, between Monday January 14th 2019 and Monday February 4th 2019.
 
+## Contents
+
+* [About](#about)
+* [Code of conduct](#code-of-conduct)
+* [Materials for the class](#materials-for-the-class)
+* [Methodology](#methodology)
+* [Installation](#installation)
+* [Summary](#summary)
+* [Week 1](#week-1)
+* [Week 2](#week-2)
+* [Week 3](#week-3)
+* [Week 4](#week-4)
+* [Additional resources](#additional-resources)
+* [License](#license)
+
 ### Code of conduct
 
 This class is part of School of Ma, and will be ruled by their code of conduct.
 
-## Description
+## Summary
 
-Randomness is the lack of pattern and or predictability in patterns. Randomness is all around us and is what drives natural events such as the weather and dice-throwing. Randomness is behind noise, and noise is present in every sensor measurement, including our audiovisual perception of the world. Randomness is what makes vinyls sound different than digital audio and film look different than digital video.
+Randomness is all around us and is what drives natural events such as the weather and dice-throwing. Randomness is behind noise, and noise is present in every sensor measurement, including our audiovisual perception of the world. Randomness is what makes vinyls sound different than digital audio and film look different than digital video. Randomness is the lack of pattern and or predictability in patterns.
 
 Computers allows us to create mathematical models of randomness and incorporate to our art practice, rendering new exciting new generative and unpredictable artworks, like it has been done in genres such as [aleatoric music](https://en.wikipedia.org/wiki/Aleatoric_music) and [automatic drawing](https://en.wikipedia.org/wiki/Surrealist_automatism#Automatic_drawing), and by artists like [Lillian Schwartz](https://en.wikipedia.org/wiki/Lillian_Schwartz), [Max Hawkins](https://maxhawkins.me/) and [John Cage](https://en.wikipedia.org/wiki/John_Cage), and featured by institutions such as the [Random Institute](https://en.wikipedia.org/wiki/Random_Institute).
 
@@ -24,23 +39,6 @@ Don't feel discouraged if you know nothing about any of these topics, if you can
 
 If you are an expert in any of these topics, you will learn how to incorporate other disciplines to your practice.
 
-## Materials
-
-The materials needed include:
-
-* A computer running either Linux, MacOS, or Windows. (No tablets)
-* Internet connection
-* Headphones
-
-## Technology
-
-We will use free libre open source software, including:
-
-* [p5.js](https://p5js.org/), for visual art and web apps.
-* [Python3](https://www.python.org/), for math
-* [Pure Data](http://puredata.info/), for audio and sound manipulation.
-* [VidPy](https://antiboredom.github.io/vidpy/), for video manipulation.
-
 ## Methodology  
 
 Each class includes explanations of theory and concepts, and practical examples with software.
@@ -51,16 +49,36 @@ All the notes and code written is included on this GitHub repository, so that st
 
 There are also several links for further reading and studying.
 
-## Installation of tools
+All the contents of this repository will be updated during the duration of this class.
+
+## Materials for the class
+
+The materials needed include:
+
+* A computer running either Linux, MacOS, or Windows. (No tablets)
+* Internet connection
+* Headphones
+
+We will use free libre open source software, including:
+
+* [Audacity](https://www.audacityteam.org/), for editing audio.
+* [ChucK](http://chuck.cs.princeton.edu/), software for computer music.
+* [Command line interface](https://en.wikipedia.org/wiki/Command-line_interface), environment for executing code.
+* [p5.js](https://p5js.org/), for interactive audiovisual web apps.
+* [Processing](https://processing.org/), for programming interactive audiovisual apps.
+* [Python3](https://www.python.org/), for math.
+* [Pure Data](http://puredata.info/), for audio and sound manipulation.
+* [Text editor](https://en.wikipedia.org/wiki/Text_editor), for writing code. I recommend [Atom](https://atom.io/) or [Sublime Text](https://www.sublimetext.com/).
+* [VidPy](https://antiboredom.github.io/vidpy/), for video manipulation.
+
+## Installation
 
 For this class we will be using the following applications, software and tools:
 
-* [Audacity](https://www.audacityteam.org/), software for editing audio. App installed is called "Audacity".
-* [ChucK](http://chuck.cs.princeton.edu/), software for computer music. App installed is an executable called "miniAudicle".
-* [Command line interface](https://en.wikipedia.org/wiki/Command-line_interface), environment for executing code. In Mac and Linux it is called "Terminal" and in Windows it is called "Command prompt".
-* [Processing](https://processing.org/), software for programming interactive audiovisual applications. App installed is called "Processing".
-* [Pure Data](http://puredata.info/), software for computer music. App installed is called "Pd-0.49-1".
-* [Text editor](https://en.wikipedia.org/wiki/Text_editor), software to write code. Two options are recommended, [Atom](https://atom.io/) or [Sublime Text](https://www.sublimetext.com/).
+In Mac and Linux it is called "Terminal" and in Windows it is called "Command prompt".
+App installed is called "Processing".
+ App installed is called "Pd-0.49-1".
+
 * [Python 3](https://www.python.org/), programming language for general programming. To check if you have Python installed, open your "Command Line interface" and execute the command.
 ```bash
 python
