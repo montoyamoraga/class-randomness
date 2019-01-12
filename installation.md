@@ -39,6 +39,8 @@ Python is an interpreted, high-level, general-purpose programming language. Crea
 
 Python 2.0 was released on 2000 and Python 3.0 was released on 2008. Python 3.0 was was a major revision of the language that is not completely backward-compatible, and for this class we will use Python 3.
 
+We will now install Python 3 and make it available to use from our [command-line interface](https://en.wikipedia.org/wiki/Command-line_interface).
+
 ### Python 3 installation for Linux
 
 Go to [python.org/](https://www.python.org/) and download the latest Python 3 release from [Python source releases section](https://www.python.org/downloads/source/).
@@ -132,3 +134,9 @@ Download the installer for the latest Python 3 release, which would be 3.7.2 as 
 When you are going through the installation, make sure to select the option "Add Python 3 to PATH", in order to make Python 3 available to execute from the Command prompt.
 
 ![alt text](https://github.com/montoyamoraga/class-randomness-is-all-around/raw/master/pics/week1-python-windows.png "Python Windows")
+
+After installing I suggest restarting your Windows computer and checking if Python is accessible from the command prompt, either with the command *python* or *python3*.
+
+Here are some additional [instructions for Windows](https://wsvincent.com/install-python3-windows/).
+
+If you are running into trouble, contact the instructor of this class.

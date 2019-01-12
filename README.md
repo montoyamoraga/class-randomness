@@ -89,57 +89,11 @@ Refer to the [installation.md](/installation.md) file.
 
 ### Week 1 notes
 
-Today we will a text editor to write code using the language Python3, and will execute our scripts using the command-line interface.
+Today we will a text editor to write code using the language Python 3, and will execute our scripts using the command-line interface.
 
-Let's open our command-line interface and check that we have Python3 installed.
+Before continuing, make sure to follow the instructions at [Python 3 installation for Windows](/installation.md/#python-3-installation-for-windows), on the companion file [installation.md](/installation.md)
 
-Execute this command
-
-```bash
-python3
-```
-
-In my computer, a Macbook running macOS, *python* is an alias for Python2.
-
-If your computer shows Python3, then you are ready to go, and you will execute your code using the command *python*, yay.
-
-To exit, execute the command
-
-```bash
-exit()
-```
-
-If *python* doesn't correspond to Python3, let's execute now the command python3.
-
-```bash
-python3
-```
-
-This is what I see on my computer, a Macbook running macOS.
-
-![alt text](https://github.com/montoyamoraga/class-randomness-is-all-around/raw/master/pics/week1-python3-example.png "Python3 example")
-
-If your computer shows Python3, then you are ready to go, and you will execute your code using the command *python3*, yay.
-
-To exit, type the command
-
-```bash
-exit()
-```
-
-I managed to install Python3 and made it available using the commmand python3 on my computer by installing [Homebrew](https://brew.sh/) and then installing Python3 by executing the command
-
-```bash
-brew install python3
-```
-
-If you still haven't been able to use Python3 on your machine, either via the command *python* or *python3*, you need to both install it and then making it available from the terminal.
-
-In Windows, I suggest using the installer from the official [Python website](https://www.python.org/), and making sure that you select the option *Add Python 3.x to the PATH*. After installing I suggest restarting your Windows computer and checking if Python is accessible from the command-line.
-
-Here are some additional [instructions for Windows](https://wsvincent.com/install-python3-windows/).
-
-If you are running into trouble, contact the instructor of this class.
+In my computer, a Macbook running macOS, *python* is for Python 2 and *python3* is for Python 3, so I will be using the latter throughout this text. Use the corresponding one for your setup.
 
 Let's start writing Python code.
 
