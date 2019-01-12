@@ -91,7 +91,7 @@ Refer to the [installation.md](/installation.md) file.
 
 Today we will a text editor to write code using the language Python 3, and will execute our scripts using the command-line interface.
 
-Before continuing, make sure to follow the instructions at [Python 3 installation for Windows](/installation.md/#python-3-installation-for-windows), on the companion file [installation.md](/installation.md)
+Before continuing, make sure to follow the instructions at [Python 3 installation](/installation.md/#python-3), on the companion file [installation.md](/installation.md).
 
 In my computer, a Macbook running macOS, *python* is for Python 2 and *python3* is for Python 3, so I will be using the latter throughout this text. Use the corresponding one for your setup.
 
