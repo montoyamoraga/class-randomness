@@ -73,8 +73,7 @@ We will use free libre open source software, including:
 
 ## Installation
 
-Refer to the [installation.md](/installation.md) file,
-
+Refer to the [installation.md](/installation.md) file.
 
 ## Week 1: Introduction to randomness and programming with Python
 
