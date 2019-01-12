@@ -131,7 +131,7 @@ Download the installer for the latest Python 3 release, which would be 3.7.2 as 
 
 When you are going through the installation, make sure to select the option "Add Python 3 to PATH", in order to make Python 3 available to execute from the Command prompt.
 
-![alt text](https://github.com/montoyamoraga/class-randomness-is-all-around/raw/master/pics/week1-python-windows.png "Python Windows")
+![alt text](https://github.com/montoyamoraga/class-randomness-is-all-around/raw/master/pics/week1-python3-windows-path.png "Python Windows Add to PATH")
 
 After installing I suggest restarting your Windows computer and checking if Python is accessible from the command prompt, either with the command *python* or *python3*.
 
