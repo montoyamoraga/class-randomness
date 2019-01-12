@@ -89,7 +89,9 @@ After installing it, you can now open the Terminal application and run Python 3 
 python3
 ```
 
-You should now see this on your computer.
+You should now see this on your computer. If not, try restarting the computer and trying again.
+
+![alt text](https://github.com/montoyamoraga/class-randomness-is-all-around/raw/master/pics/week1-python3-example.png "Python3 example")
 
 ### Python 3 installation for Windows
 
