@@ -47,7 +47,7 @@ Another option I recommend is installing the [Anaconda Python distribution](http
 
 ### Python 3 installation for Mac
 
-Mac computers come with Python 2 already installed. Open the Terminal app on your Mac and write the following command.
+Mac computers come with Python 2 already installed. Open the Terminal app on your Mac and execute the following command.
 
 ```bash
 python
@@ -70,6 +70,8 @@ python3
 ```
 
 If you see the following screen, you already have Python 3 installed and you are done, yay.
+
+![alt text](https://github.com/montoyamoraga/class-randomness-is-all-around/raw/master/pics/week1-python3-example.png "Python3 example")
 
 If not, continue with these instructions to install Python3.
 
