@@ -119,7 +119,11 @@ python3
 
 If you see this, yay, you have Python 3 installed and you will be using the command *python3* during this class.
 
+TODO
+
 If you see this screen, you don't have Python3 installed yet, so let's continue with the installation.
+
+TODO
 
 Go to [python.org/](https://www.python.org/) and continue to the [Python Releses for Windows](https://www.python.org/downloads/windows/) section available in the Downloads Menu.
 
