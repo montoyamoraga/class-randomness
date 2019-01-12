@@ -33,32 +33,73 @@ Pure Data (or just Pd) is an open source visual programming language for multime
 * Follow the instructions of the installer.
 * The name of the application installed is *Pd-0.49-1*.
 
-## Python3
+## Python 3
 
 Python is an interpreted, high-level, general-purpose programming language. Created by Guido van Rossum and first released in 1991, Python has a design philosophy that emphasizes code readability, notably using significant whitespace. It provides constructs that enable clear programming on both small and large scales. (Source: [Wikipedia](https://en.wikipedia.org/wiki/Python_(programming_language))).
 
-### Python3 installation for Linux
+Python 2.0 was released on 2000 and Python 3.0 was released on 2008. Python 3.0 was was a major revision of the language that is not completely backward-compatible, and for this class we will use Python 3.
 
-### Python3 installation for Mac
+### Python 3 installation for Linux
 
-Mac computers come with Python2 i
+Go to [python.org/](https://www.python.org/) and download the latest Python 3 release from [Python source releases section](https://www.python.org/downloads/source/).
 
-### Python3 installation for Windows
+Another option I recommend is installing the [Anaconda Python distribution](https://www.anaconda.com/).
 
+### Python 3 installation for Mac
+
+Mac computers come with Python 2 already installed. Open the Terminal app on your Mac and write the following command.
+
+```bash
+python
+```
+
+You should see this on your terminal
+
+![alt text](https://github.com/montoyamoraga/class-randomness-is-all-around/raw/master/pics/week1-python2-example.png "Python2 example")
+
+To exit the Python 2 environment and go back to Terminal. enter the following command.
+
+```python
+exit()
+```
+
+To check if you already have installed Python 3 in your computer, try running the following command.
+
+```bash
+python3
+```
+
+If you see the following screen, you already have Python 3 installed and you are done, yay.
+
+If not, continue with these instructions to install Python3.
+
+I recommend installing first the package manager [homebrew](https://brew.sh), which will be helpful for other tools we will use later in the class.
+
+After installing homebrew, install Python3 using the following command.
+
+```bash
+brew install python3
+```
+
+After installing it, you can now open the Terminal application and run Python 3 with the command.
+
+```python
+python3
+```
+
+You should now see this on your computer.
+
+### Python 3 installation for Windows
+
+Windows usually doesn't have Python installed. We will install Python 3 and use it with our [command-line interface tool](https://en.wikipedia.org/wiki/Command-line_interface).
+
+Depending on your Windows version,
 
 In Mac and Linux it is called "Terminal" and in Windows it is called "Command prompt".
 App installed is called "Processing".
 
 * [Python 3](https://www.python.org/), To check if you have Python installed, open your "Command Line interface" and execute the command.
-```bash
-python
-```
+
 
 
 TODO: add more instructions
-
-If you are on a Mac, Python2 is already installed in your computer. I recommend to install the package manager [homebrew](https://brew.sh) and then install Python3 with it via the command
-
-```bash
-brew install python3
-```

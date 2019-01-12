@@ -96,12 +96,8 @@ Let's open our command-line interface and check that we have Python3 installed.
 Execute this command
 
 ```bash
-python
+python3
 ```
-
-This is what I see on my computer.
-
-![alt text](https://github.com/montoyamoraga/class-randomness-is-all-around/raw/master/pics/week1-python2-example.png "Python2 example")
 
 In my computer, a Macbook running macOS, *python* is an alias for Python2.
 
