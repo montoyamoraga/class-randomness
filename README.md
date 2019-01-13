@@ -87,7 +87,6 @@ I would love it if everyone would upload the code they write using GitHub to sha
 
 Maybe for real-time collaboration, we should set up a Google Doc so you call can take notes and share them?
 
-
 ## Week 1: Introduction to randomness and programming with Python
 
 ### Topics
