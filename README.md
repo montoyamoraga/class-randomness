@@ -259,7 +259,7 @@ Let's use random.org to get true random integer numbers.
 # runs with Python3
 # date: 2019-01-13
 
-# script that outputs one thousand random numbers with an optional seed
+# script that outputs one random integer from random.org
 
 # import Python modules
 # we will use requests, install with
@@ -306,9 +306,7 @@ In this last example, we used an if statement, which allows our code to behave d
 Let's expand this to include text, with the Python module [Tracery for Python](https://github.com/aparrish/pytracery) by [Allison Parrish](http://www.decontextualize.com/), a Python port of the original [Tracery](http://tracery.io/) by [Kate Compton](http://www.galaxykate.com/).
 
 
-TODO: Use if/else and Tracery to write cool random poems.
 
-TODO: Add example with Tracery
 
 ## Week 1 assignment
 
