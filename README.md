@@ -201,15 +201,58 @@ print(number1)
 print(number2)
 ```
 
-This example was easy to expand, since we went from one variable to three of them, but it is a bad practice to copy and paste code. Also there are data structures that allow us to store related data in an easy way. In programming we call them [arrays](TODO), and in Python we call them [lists](TODO).
+This example was easy to expand, since we went from one variable to three of them, but it is a bad practice to copy and paste code. Also there are data structures that allow us to store related data in an easy way. In programming we call them [arrays](https://en.wikipedia.org/wiki/Array_data_structure), and in Python we call them [lists](https://docs.python.org/3.7/tutorial/datastructures.html).
 
-Let's write a Python code that creates a thousand  one thousand random numbers at a time,
+Let's write a Python code that creates one thousand random numbers at a time.
 
-TODO: add example to explain arrays and lists
+```python
+# 03-thousand-random-numbers.py
+# written by montoyamoraga
+# runs with Python3
+# date: 2019-01-13
+
+# script that outputs one thousand random numbers with an optional seed
+
+# import Python modules
+# random module documentation
+# https://docs.python.org/3.7/library/random.html
+import random
+
+# use boolean variable to decide the use of seed
+# useSeed = True
+useSeed = False
+
+# if useSeed is True, set a random seed
+if (useSeed):
+    # set random seed
+    # random.seed() initializes the random number generator.
+    # https://en.wikipedia.org/wiki/Random_seed
+    random.seed(11)
+
+# declare variable to specify how many random numbers
+quantity = 1000
+
+# declare empty list for the numbers
+numbers = list()
+
+# iterate to fill the empty list
+for i in range(quantity):
+    # declare variable for new random number
+    # random() returns the next random floating point number in the range [0.0, 1.0)
+    newNumber = random.random()
+    # append new number to the list
+    numbers.append(newNumber)
+
+# print list of numbers
+print(numbers)
+```
 
 Bad news is that computers can't generate true random numbers on their own. Computer algorithms are only able to create pseudorandom numbers, which appear to be random but are not.
 
-If we want to generate true random numbers, we need to access data from outside of our computer, such as the one at [random.org](TODO).
+If we want to generate true random numbers, we need to access data from outside of our computer, such as the one at [random.org](https://www.random.org/).
+
+```python
+```
 
 TODO: Add example with random.org for true random numbers.
 
