@@ -73,7 +73,20 @@ We will use free libre open source software, including:
 
 ## Installation
 
-Refer to the [installation.md](/installation.md) file.
+Refer to the [installation.md](/installation.md) file to install the required free libre open source software we will use in this class.
+
+All the material of this class is free, libre, open-source, and available on the web on a GitHub repository.
+
+Iis highly encouraged to use GitHub to share the work you do and the notes you take for this class. If you are not sure what GitHub is, here are some links:
+
+* [What is Git](TOOD)
+* [What is GITHUB](TODO)
+* [What is FLOSS](TODO)
+
+I would love it if everyone would upload the code they write using GitHub to share it with all classmates but it is not mandatory, it is totally OK to not do it.
+
+Maybe for real-time collaboration, we should set up a Google Doc so you call can take notes and share them?
+
 
 ## Week 1: Introduction to randomness and programming with Python
 
@@ -93,11 +106,11 @@ Today we will a text editor to write code using the language Python 3, and will 
 
 Before continuing, make sure to follow the instructions at [Python 3 installation](/installation.md/#python-3), on the companion file [installation.md](/installation.md).
 
+Optionally, follow the instructions for setting up a [virtual environment](/virtual-environment.md). It is not neccessary but highly encouraged.
+
 In my computer, a Macbook running macOS, *python* is for Python 2 and *python3* is for Python 3, so I will be using the latter throughout this text. Use the corresponding one for your setup.
 
 Let's start writing Python code.
-
-Inside of the folder week1, create a file called script.py.
 
 We will encourage good manners and good practices in programming, such as using comments to explain and document the code we are writing.
 
@@ -115,7 +128,7 @@ Write the following script:
 print("testing")
 ```
 
-To run this code, execute it on the command-line:
+To run this code, execute it on the command-line with the python command:
 
 ```python
 python3 00-testing.py
@@ -126,8 +139,6 @@ You should see the following on the command line:
 ![alt text](https://github.com/montoyamoraga/class-randomness-is-all-around/raw/master/pics/week1-00-testing.png "Testing script")
 
 Now we will use the random functions of Python. We don't need to install them, but we do need to import them. We will use it to output a random number.
-
-Here is the result:
 
 ```python
 # 01-random-number.py
@@ -151,13 +162,12 @@ number = random.random()
 print(number)
 ```
 
-Let's now create several random numbers, and introduce the concept of seed. Bad news is that computers can't generate true random numbers on their own. With an algorithm they are only able to create pseudorandom numbers, which appear to be random but are not.
+Let's now create several random numbers, and introduce the concept of seed.
 
 For more info:
 * [Pseudorandomness, Wikipedia](https://en.wikipedia.org/wiki/Pseudorandomness)
 * [How computers generate random numbers, How-To Geek](https://www.howtogeek.com/183051/htg-explains-how-computers-generate-random-numbers/)
 * [Introducion to randomness and random numbers, random.org](https://www.random.org/randomness/)
-
 
 ```python
 # 02-random-seed.py
@@ -192,62 +202,29 @@ print(number1)
 print(number2)
 ```
 
+This example was easy to expand, since we went from one variable to three of them, but it is a bad practice to copy and paste code. Also there are data structures that allow us to store related data in an easy way. In programming we call them [arrays](TODO), and in Python we call them [lists](TODO).
 
-Python can do math, but sometimes we will include libraries, which are snippets of code that other people wrote and that we can use. We can install them on our hard drive, but it is a lot of clutter and also it's easy to break things when all your Python scripts share their dependencies. We will use virtual environments instead, so that each project we write, will only use its own libraries, and not the ones that are installed globally in your computer. This is called scope limiting.
+Let's write a Python code that creates a thousand  one thousand random numbers at a time,
 
-Let's setup our virtual environment yay.
+TODO: add example to explain arrays and lists
 
-Let's open the terminal and navigate to the folder of this class.
+Bad news is that computers can't generate true random numbers on their own. Computer algorithms are only able to create pseudorandom numbers, which appear to be random but are not.
 
-```bash
-cd Desktop/class-randomness-is-all-around-master/
-```
+If we want to generate true random numbers, we need to access data from outside of our computer, such as the one at [random.org](TODO).
 
-To check that we are in the right folder, list the contents of the terminal.
+TODO: Add example with random.org for true random numbers.
 
-```bash
-ls
-```
+TODO: Explain what kind of stuff we can do with random numbers, and explain if statements.
 
-Let's use week1 and navigate to this folder.
+TODO: add example to explain if statements
 
-```bash
-cd week1/
-```
+TODO: Use if/else and Tracery to write cool random poems.
 
-Create a virtual environment on it with Python3
+TODO: Add example with Tracery
 
-```bash
-python3 -m venv env
-```
+## Week 1 assignment
 
-If it is successful, you should see a new folder called env/ inside of the folder week1/.
-
-Now activate the virtual environment by executing the command.
-
-```
-source env/bin/activate
-```
-
-You should see *(env)* appear on your command-line.
-
-We will the library [Tracery for Python](https://github.com/aparrish/pytracery) by [Allison Parrish](http://www.decontextualize.com/), a Python port of the original [Tracery](http://tracery.io/) by [Kate Compton](http://www.galaxykate.com/).
-
-To install it we will use pip, by executing the following command.
-
-```bash
-pip install tracery
-```
-
-
-
-Pseudo-randomness
-
-
-
-## Assignment
-
-Write a Python script that outputs random numbers in a creative way. Write Write a blog post about the way your Python script works, include your inspiration, your successes, your shortcomings and failures, and include your research and doubts about randomness.
+Write a Python script that outputs random numbers in a creative way. Write a blog post about the way your Python script works, include your inspiration, your successes, your shortcomings, and failures. Include also your research links, and bibliography, and any doubts you have about randomness, Python, or anything we have seen so far.
 
 ## Week 2: Introduction to randomness and sound art
 
