@@ -28,6 +28,7 @@ quantity = 1000
 numbers = list()
 
 # iterate to fill the empty list
+# check documentation of range() in Python
 for i in range(quantity):
     # declare variable for new random number
     # random() returns the next random floating point number in the range [0.0, 1.0)
