@@ -6,35 +6,40 @@
 # script that outputs one thousand random numbers with an optional seed
 
 # import Python modules
-# random module documentation
-# https://docs.python.org/3.7/library/random.html
-import random
+# we will use requests, install with
+# pip install requests
+# requests module documentation
+# http://docs.python-requests.org/en/master/
+import requests
 
-# use boolean variable to decide the use of seed
-# useSeed = True
-useSeed = False
+# example to request integers where
+# num is quantity of integers
+# min is minimum value
+# max is maximum value
+# col is how many per column
+# base means numbers base 10
+# format is plain instead of html
+# https://www.random.org/integers/?num=10&min=1&max=6&col=1&base=10&format=plain&rnd=new
 
-# if useSeed is True, set a random seed
-if (useSeed):
-    # set random seed
-    # random.seed() initializes the random number generator.
-    # https://en.wikipedia.org/wiki/Random_seed
-    random.seed(11)
+# variables for request
+num = 1
+min = 1
+max = 6
 
-# declare variable to specify how many random numbers
-quantity = 1000
+# build random.org request with the variables
+randomOrgRequest = "https://www.random.org/integers/?num=" + str(num) + "&min=" + str(min) + "&max=" + str(max) + "&col=1&base=10&format=plain&rnd=new"
 
-# declare empty list for the numbers
-numbers = list()
+# make the request and store result in response
+response = requests.get(randomOrgRequest)
 
-# iterate to fill the empty list
-# check documentation of range() in Python
-for i in range(quantity):
-    # declare variable for new random number
-    # random() returns the next random floating point number in the range [0.0, 1.0)
-    newNumber = random.random()
-    # append new number to the list
-    numbers.append(newNumber)
+# parse the response to string and then to int
+randomNumber = int(response.text)
 
-# print list of numbers
-print(numbers)
+# print random number to console
+print(randomNumber)
+
+# print if random number is even or odd
+if randomNumber % 2 == 0:
+    print("the number is even")
+else:
+    print("the number is odd")
