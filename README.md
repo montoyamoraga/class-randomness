@@ -113,7 +113,7 @@ Topics:
 * Human sound perception
 * Pure Data environment
 * Oscillators
-* White and pink noise
+* Noise
 * Sequencers
 * Sampling
 
