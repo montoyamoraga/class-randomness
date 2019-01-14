@@ -4,6 +4,12 @@
 
 ### Randomness
 
+[Randomness, Wikipedia](https://en.wikipedia.org/wiki/Randomness)
+
+[John Cage - Chance, Wikipedia](https://en.wikipedia.org/wiki/John_Cage#Chance)
+
+[Papá o 36 mil juicios de un mismo suceso (2008), film by Leonardo Medel](https://www.imdb.com/title/tt1334552/)
+
 
 
 ### Randomness and computers
@@ -11,7 +17,6 @@
 * [Pseudorandomness, Wikipedia](https://en.wikipedia.org/wiki/Pseudorandomness)
 * [How computers generate random numbers, How-To Geek](https://www.howtogeek.com/183051/htg-explains-how-computers-generate-random-numbers/)
 * [Introducion to randomness and random numbers, random.org](https://www.random.org/randomness/)
-
 
 ### Uniform and normal (Gaussian) distributions
 
