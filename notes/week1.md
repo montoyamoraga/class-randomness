@@ -10,6 +10,9 @@
 
 [Papá o 36 mil juicios de un mismo suceso (2008), film by Leonardo Medel](https://www.imdb.com/title/tt1334552/)
 
+Die throwing: 6 outcomes, uniform.
+Coin throwing: heads or tails, uniform.
+Wind: [Weibull distribution, Wikipedia](https://en.wikipedia.org/wiki/Weibull_distribution)
 
 
 ### Randomness and computers
