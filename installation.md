@@ -25,11 +25,42 @@ ChucK is a programming language for real-time sound synthesis and music creation
 
 ## Git and GitHub
 
-Git is a version control system. It allows you both store your code and its history.
-
-In Git jargon, folders become *repositories*.
+Git is a version control system. It allows you both store your code and its history. It is very convenient for working on code projects where
 
 GitHub is a way of hosting your repositories on the cloud.
+
+Some typical Git jargon:
+* *repository*: folder with code being version-controlled with git.
+* *commit*: a new change
+* *pull*
+
+Some typical Git commands:
+
+Include all the changes made since last commit and stage a new commit:
+
+```bash
+git add -A
+```
+
+Perform a commit, with *message* being the description of the changes made:
+
+```bash
+git commit -m "message"
+```
+
+Push the commit to the cloud to make the cloud even with your local repository:
+
+```bash
+git push
+```
+
+Pull commits from the cloud to make your local repository even with the cloud:
+
+```bash
+git pull
+```
+
+
 
 
 ## Processing
