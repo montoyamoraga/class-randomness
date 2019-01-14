@@ -93,6 +93,8 @@ If you want to start using Git over GitHub, I suggest these resources:
 
 TODO: Maybe for real-time collaboration, we should set up a Google Doc so you call can take notes and share them?
 
+
+
 ## Week 1: Introduction to randomness for numbers and text with Python
 
 ### Topics
@@ -107,6 +109,16 @@ TODO: Maybe for real-time collaboration, we should set up a Google Doc so you ca
 * Python for math and randomness
 * Randomness on the internet: [random.org](https://www.random.org/)
 * Randomness and text: [Tracery for Python](https://github.com/aparrish/pytracery)
+
+## Students introductions
+
+Before starting the class, let's do short introductions [90 seconds timer](https://www.google.com/search?rlz=1C5CHFA_enUS813US813&q=timer+90+seconds):
+
+* Name?
+* Why did you take the class?
+* What are your expectations out of this class?
+* Background in programming?
+* Background in arts/design/music/stuff?
 
 ### [Week 1 notes](notes/week1.md)
 
