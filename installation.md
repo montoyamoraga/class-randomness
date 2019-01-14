@@ -67,7 +67,6 @@ git pull
 
 You can either setup git and your GitHub account for [command-line use](https://help.github.com/articles/set-up-git/) or you can also use the [GitHub Desktop](https://help.github.com/desktop/guides/getting-started-with-github-desktop/) app.
 
-
 ## Processing
 
 Processing is a flexible software sketchbook and a language for learning how to code within the context of the visual arts. Since 2001, Processing has promoted software literacy within the visual arts and visual literacy within technology. There are tens of thousands of students, artists, designers, researchers, and hobbyists who use Processing for learning and prototyping. (Source: [processing.org](https://processing.org/)).
