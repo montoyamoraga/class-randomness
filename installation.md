@@ -2,6 +2,16 @@
 
 This document details the installation of software required for the class [Randomness is all around us](https://github.com/montoyamoraga/class-randomness-is-all-around) by [Aarón Montoya-Moraga](http://montoyamoraga.io/).
 
+## Contents
+
+* [ChucK](#chuck)
+* [Processing](#processing)
+* [Pure Data](#pure-data)
+* [Python 3](#python-3)
+* [Python 3 installation for Linux](#python-3-installation-for-linux)
+* [Python 3 installation for Mac](#python-3-installation-for-mac)
+* [Python 3 installation for Windows](#python-3-installation-for-windows)
+
 ## ChucK
 
 ChucK is a programming language for real-time sound synthesis and music creation. It is open-source and freely available on MacOS X, Windows, and Linux. ChucK presents a unique time-based, concurrent programming model that's precise and expressive (we call this strongly-timed), dynamic control rates, and the ability to add and modify code on-the-fly. In addition, ChucK supports MIDI, OpenSoundControl, HID device, and multi-channel audio. It's fun and easy to learn, and offers composers, researchers, and performers a powerful programming tool for building and experimenting with complex audio synthesis/analysis programs, and real-time interactive music. (Source: [chuck.cs.princeton.edu/](http://chuck.cs.princeton.edu/)).
@@ -59,7 +69,7 @@ You should see this on your terminal
 
 ![alt text](https://github.com/montoyamoraga/class-randomness-is-all-around/raw/master/pics/week1-python2-example.png "Python2 example")
 
-To exit the Python 2 environment and go back to Terminal. enter the following command.
+To exit the Python 2 environment and go back to Terminal, enter the following command.
 
 ```python
 exit()
