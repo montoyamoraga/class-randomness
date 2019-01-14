@@ -1,4 +1,4 @@
-# 05-tracery.py
+# 06-tracery.py
 # written by montoyamoraga
 # runs with Python3
 # date: 2019-01-13

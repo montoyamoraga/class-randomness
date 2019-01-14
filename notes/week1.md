@@ -98,20 +98,18 @@ Let's write a Python code that creates one thousand random numbers at a time.
 
 [03-thousand-random-numbers](./../code/week1/03-thousand-random-numbers.py)
 
-TODO: example with uniform and gauss distributions
+The *random.random()* command follows an uniform distribution between 0 and 1, that is, normalized.
 
-random.uniform(a, b)
+Now let's do an example with uniform and normal distributions in Python, and let's use the [NumPy](http://www.numpy.org/) Python module for number handling and [matplotlib](https://matplotlib.org/) for plotting.
 
-Return a random floating point number N such that a <= N <= b for a <= b and b <= N <= a for b < a.
+To install them, use pip.
 
+```bash
+pip3 install numpy
+pip3 install matplotlib
+```
 
-
-random.gauss(mu, sigma)
-
-Gaussian distribution. mu is the mean, and sigma is the standard deviation.
-
-
-
+[04-numpy-uniform-normal](./../code/week1/04-numpy-uniform-normal.py)
 
 ### Randomness on the internet: [random.org](https://www.random.org/)
 
@@ -121,7 +119,7 @@ If we want to generate true random numbers, we need to access data from outside 
 
 Let's use random.org to get true random integer numbers.
 
-[04-random-org](./../code/week1/04-random-org.py)
+[05-random-org](./../code/week1/05-random-org.py)
 
 In this example, we used an if statement, which allows our code to behave differently in every execution.
 
@@ -129,4 +127,4 @@ In this example, we used an if statement, which allows our code to behave differ
 
 Let's expand this to include text, with the Python module [Tracery for Python](https://github.com/aparrish/pytracery) by [Allison Parrish](http://www.decontextualize.com/), a Python port of the original [Tracery](http://tracery.io/) by [Kate Compton](http://www.galaxykate.com/).
 
-[05-tracery](./../code/week1/05-tracery.py)
+[06-tracery](./../code/week1/06-tracery.py)
