@@ -99,11 +99,9 @@ Maybe for real-time collaboration, we should set up a Google Doc so you call can
 * Python for math and randomness
 * Randomness on the internet: random.org
 
-### Week 1 notes
+### [Week 1 notes](/week1.md)
 
-[week1 notes](/week1.md)
-
-## Week 1 assignment
+### Week 1 assignment
 
 Write a Python script that outputs random numbers in a creative way. Write a blog post about the way your Python script works, include your inspiration, your successes, your shortcomings, and failures. Include also your research links, and bibliography, and any doubts you have about randomness, Python, or anything we have seen so far.
 
@@ -118,7 +116,7 @@ Topics:
 * Sequencers
 * Sampling
 
-Assignment:
+### Week 2 assignment
 
 Create a sound art piece that uses randomness.
 
@@ -133,7 +131,7 @@ Topics:
 * Perlin noise
 * Interactivity with mouse and keyboard
 
-Assignment:
+### Week 3 assignment
 
 Create a visual art piece that uses randomness.
 
@@ -146,7 +144,7 @@ Topics:
 * Frame rate manipulation
 * Stitching videos programmatically
 
-Assignment:
+### Week 4 assignment:
 
 Create a video art piece that uses randomness.
 
