@@ -30,9 +30,12 @@ Git is a version control system. It allows you both store your code and its hist
 GitHub is a way of hosting your repositories on the cloud.
 
 Some typical Git jargon:
+
+* *commit*: save a new change in your repository.
 * *repository*: folder with code being version-controlled with git.
-* *commit*: a new change
-* *pull*
+* *pull*: pull commits, make your local repository even with the cloud.
+* *push*: push commits, make the cloud even with your local repository.
+* *stage*: include files to be added to the next commit.
 
 Some typical Git commands:
 
