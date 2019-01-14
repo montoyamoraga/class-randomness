@@ -6,15 +6,13 @@
 
 ### Introduction to [VidPy](https://antiboredom.github.io/vidpy/)
 
-
-
 ### Video format conversion
 
 Compressed vs uncompressed
 
 ### Frame rate manipulation
 
-30 fps, 10 fps, variable framerate
+30 fps, 10 fps, variable frame rate
 
 ### Stitching videos programmatically
 

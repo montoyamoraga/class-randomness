@@ -41,10 +41,14 @@ random object in Pure Data
 ### Sequencers
 
 Korg SQ-1
-Make Noise René
+
+Make Noise René: cartesian
+
 
 ### Sampling
 
 Use of samples
 
 Akai MPC
+
+Add patch for samples
