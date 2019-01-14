@@ -1,6 +1,6 @@
 # class-randomness-is-all-around
 
-## Week 1
+## Week 1: Introduction to randomness for numbers and text with Python
 
 Today we will a text editor to write code using the language Python 3, and will execute our scripts using the command-line interface.
 

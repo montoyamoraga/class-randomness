@@ -87,7 +87,7 @@ I would love it if everyone would upload the code they write using GitHub to sha
 
 Maybe for real-time collaboration, we should set up a Google Doc so you call can take notes and share them?
 
-## Week 1: Introduction to programming and randomness for numbers and text with Python
+## Week 1: Introduction to randomness for numbers and text with Python
 
 ### Topics
 
@@ -125,11 +125,11 @@ Create a sound art piece that uses randomness.
 
 Topics:
 * Human color perception
-* Introduction to p5.js
+* Introduction to [p5.js](https://p5js.org/)
 * Drawing basic shapes
 * RGB / HSB color models
-* White and pink noise
-* Perlin noise
+* [White noise](https://en.wikipedia.org/wiki/White_noise), [pink noise](https://en.wikipedia.org/wiki/Pink_noise)
+* [Brownian noise](https://en.wikipedia.org/wiki/Brownian_noise), [Perlin noise](https://en.wikipedia.org/wiki/Perlin_noise)
 * Interactivity with mouse and keyboard
 
 ### Week 3 assignment
@@ -140,12 +140,12 @@ Create a visual art piece that uses randomness.
 
 Topics:
 * Human vision temporal sensitivity
-* Introduction to VidPy
+* Introduction to [VidPy](https://antiboredom.github.io/vidpy/)
 * Video format conversion
 * Frame rate manipulation
 * Stitching videos programmatically
 
-### Week 4 assignment:
+### Week 4 assignment
 
 Create a video art piece that uses randomness.
 
