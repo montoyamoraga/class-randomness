@@ -3,7 +3,7 @@
 # runs with Python3
 # date: 2019-01-13
 
-# script that outputs one thousand random numbers with an optional seed
+# script that outputs a random text based on a Tracery grammar
 
 # import Python modules
 # we will use tracery, install with

@@ -3,6 +3,8 @@
 # runs with Python3
 # date: 2019-01-14
 
+# script that plots an uniform or normal distribution
+
 # import random, numppy and matplotlib.pyplot python modules
 import random
 import numpy
