@@ -39,13 +39,13 @@ For more info:
 * [How computers generate random numbers, How-To Geek](https://www.howtogeek.com/183051/htg-explains-how-computers-generate-random-numbers/)
 * [Introducion to randomness and random numbers, random.org](https://www.random.org/randomness/)
 
-[02-random-seed.py](./../code/week1/2-random-seed.py)
+[02-random-seed.py](./../code/week1/02-random-seed.py)
 
 This example was easy to expand, since we went from one variable to three of them, but it is a bad practice to copy and paste code. Also there are data structures that allow us to store related data in an easy way. In programming we call them [arrays](https://en.wikipedia.org/wiki/Array_data_structure), and in Python we call them [lists](https://docs.python.org/3.7/tutorial/datastructures.html).
 
 Let's write a Python code that creates one thousand random numbers at a time.
 
-[03-thousand-random-numbers](code/week1/03-thousand-random-numbers.py)
+[03-thousand-random-numbers](./../code/week1/03-thousand-random-numbers.py)
 
 Bad news is that computers can't generate true random numbers on their own. Computer algorithms are only able to create pseudorandom numbers, which appear to be random but are not.
 
