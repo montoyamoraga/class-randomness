@@ -13,12 +13,12 @@ In this class we will use computers to create mathematical models of randomness 
 Some examples of randomness and art:
 
 * [Chance book, Edited by Margaret Iversen, ](https://mitpress.mit.edu/books/chance): book by Whitechapel Gallery and MIT Press.
-* [Dada](https://en.wikipedia.org/wiki/Dada): art movement, very name was supposedly chosen at random from a dictionary.
-* [](https://twitter.com/the_ephemerides)
-* [The Infinite Campaign](https://lav.io/projects/the-infinite-campaign/): artwork by [Sam Lavigne](http://lav.io/), that automatically generates and posts an infinite series of video ad campaigns.
+* [Dada](https://en.wikipedia.org/wiki/Dada), art movement, very name was supposedly chosen at random from a dictionary.
+* [The Ephemerides](https://twitter.com/the_ephemerides), a Twitter bot by [Allison Parrish](https://www.decontextualize.com/), that posts random raw images from outer planet probes, accompanied by computer-generated text.
+* [The Infinite Campaign](https://lav.io/projects/the-infinite-campaign/), artwork by [Sam Lavigne](http://lav.io/), that automatically generates and posts an infinite series of video ad campaigns.
 * [John Cage, Wikipedia](https://en.wikipedia.org/wiki/John_Cage), John Cage is a composer who after 1951 introduced chance procedures to all his music, and relied heavily on the [I Ching](https://en.wikipedia.org/wiki/I_Ching).
-* [Papá o 36 mil juicios de un mismo suceso (2008)](https://www.imdb.com/title/tt1334552/): a movie by [Leonardo Medel](https://www.imdb.com/name/nm3223128/), a movie with more than 36,000 versions, a new version is generated every time it is played, thanks to [DVD](https://en.wikipedia.org/wiki/DVD) technology.
-* [Wikipedia random article](https://en.wikipedia.org/wiki/Special:Random): Wikipedia allows you to jump to a random article.
+* [Papá o 36 mil juicios de un mismo suceso (2008)](https://www.imdb.com/title/tt1334552/)movie by [Leonardo Medel](https://www.imdb.com/name/nm3223128/), with more than 36,000 versions, a new version is generated every time it is played, thanks to [DVD](https://en.wikipedia.org/wiki/DVD) technology.
+* [Wikipedia random article](https://en.wikipedia.org/wiki/Special:Random), Wikipedia allows you to jump to a random article.
 * [Wu-Tang Name Generator](http://www.mess.be/inickgenwuname.php), Childish Gambino got his name from this app.
 
 ### Randomness and computers
@@ -123,8 +123,12 @@ Let's use random.org to get true random integer numbers.
 
 In this example, we used an if statement, which allows our code to behave differently in every execution.
 
+Let's now get a random book from [Project Gutenberg](http://www.gutenberg.org/).
+
+[06-gutenberg](./../code/week1/06-gutenberg.py)
+
 ### Randomness and text: [Tracery for Python](https://github.com/aparrish/pytracery)
 
 Let's expand this to include text, with the Python module [Tracery for Python](https://github.com/aparrish/pytracery) by [Allison Parrish](http://www.decontextualize.com/), a Python port of the original [Tracery](http://tracery.io/) by [Kate Compton](http://www.galaxykate.com/).
 
-[06-tracery](./../code/week1/06-tracery.py)
+[07-tracery](./../code/week1/07-tracery.py)
