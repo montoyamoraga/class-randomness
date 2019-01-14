@@ -87,7 +87,7 @@ I would love it if everyone would upload the code they write using GitHub to sha
 
 Maybe for real-time collaboration, we should set up a Google Doc so you call can take notes and share them?
 
-## Week 1: Introduction to randomness and programming with Python
+## Week 1: Introduction to programming and randomness for numbers and text with Python
 
 ### Topics
 
@@ -97,7 +97,8 @@ Maybe for real-time collaboration, we should set up a Google Doc so you call can
 * Poisson and Markov chains
 * Normalization of signals
 * Python for math and randomness
-* Randomness on the internet: random.org
+* Randomness on the internet: [random.org](https://www.random.org/)
+* Randomness and text: [Tracery for Python](https://github.com/aparrish/pytracery)
 
 ### [Week 1 notes](/week1.md)
 
@@ -150,12 +151,15 @@ Create a video art piece that uses randomness.
 
 ## Additional resources
 
+* [FLOSS Manuals: Pure Data](http://write.flossmanuals.net/pure-data/)
 * [Learn enough command line to be dangerous](https://www.learnenough.com/command-line-tutorial)
 * [Python for beginners](https://www.pythonforbeginners.com/)
-* [FLOSS Manuals: Pure Data](http://write.flossmanuals.net/pure-data/)
 * [p5js reference](https://p5js.org/reference/)
 * [p5.js tutorials](https://p5js.org/learn/)
 * [p5.js editor](https://editor.p5js.org/)
+* [Tracery tutorial by Allison Parrish](http://air.decontextualize.com/tracery/)
+
+
 
 ## License
 
