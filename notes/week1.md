@@ -25,7 +25,7 @@ Return a random floating point number N such that a <= N <= b for a <= b and b <
 
 random.gauss(mu, sigma)
 
-Gaussian distribution. mu is the mean, and sigma is the standard deviation. This is slightly faster than the normalvariate() function defined below.
+Gaussian distribution. mu is the mean, and sigma is the standard deviation.
 
 ### Poisson and Markov chains
 
