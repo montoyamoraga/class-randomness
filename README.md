@@ -77,15 +77,21 @@ Refer to the [installation.md](/installation.md) file to install the required fr
 
 All the material of this class is free, libre, open-source, and available on the web on a GitHub repository.
 
-Iis highly encouraged to use GitHub to share the work you do and the notes you take for this class. If you are not sure what GitHub is, here are some links:
+It is highly encouraged to use GitHub to share the work you do and the notes you take for this class. If you are not sure what GitHub is, here are some links:
 
-* [What is Git](TOOD)
-* [What is GITHUB](TODO)
-* [What is FLOSS](TODO)
+* [What is Git](https://en.wikipedia.org/wiki/Git)
+* [What is GitHub](https://en.wikipedia.org/wiki/GitHub)
+* [What is FLOSS](https://en.wikipedia.org/wiki/Free_and_open-source_software)
 
 I would love it if everyone would upload the code they write using GitHub to share it with all classmates but it is not mandatory, it is totally OK to not do it.
 
-Maybe for real-time collaboration, we should set up a Google Doc so you call can take notes and share them?
+If you want to start using Git over GitHub, I suggest these resources:
+
+* [GitHub notes](/github-notes.md), short tutorial written for this class.
+* [GitHub for Desktop](https://desktop.github.com/), free desktop app for GitHub.
+* [Learn enough](https://www.learnenough.com/), free online books about command line, text editor, and git.
+
+TODO: Maybe for real-time collaboration, we should set up a Google Doc so you call can take notes and share them?
 
 ## Week 1: Introduction to randomness for numbers and text with Python
 
