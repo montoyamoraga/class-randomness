@@ -100,7 +100,7 @@ Maybe for real-time collaboration, we should set up a Google Doc so you call can
 * Randomness on the internet: [random.org](https://www.random.org/)
 * Randomness and text: [Tracery for Python](https://github.com/aparrish/pytracery)
 
-### [Week 1 notes](/week1.md)
+### [Week 1 notes](notes/week1.md)
 
 ### Week 1 assignment
 
@@ -117,6 +117,8 @@ Topics:
 * Sequencers
 * Sampling
 
+### [Week 2 notes](notes/week2.md)
+
 ### Week 2 assignment
 
 Create a sound art piece that uses randomness.
@@ -132,6 +134,8 @@ Topics:
 * [Brownian noise](https://en.wikipedia.org/wiki/Brownian_noise), [Perlin noise](https://en.wikipedia.org/wiki/Perlin_noise)
 * Interactivity with mouse and keyboard
 
+### [Week 3 notes](notes/week3.md)
+
 ### Week 3 assignment
 
 Create a visual art piece that uses randomness.
@@ -144,6 +148,8 @@ Topics:
 * Video format conversion
 * Frame rate manipulation
 * Stitching videos programmatically
+
+### [Week 4 notes](notes/week4.md)
 
 ### Week 4 assignment
 

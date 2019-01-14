@@ -1,3 +1,3 @@
 # class-randomness-is-all-around
 
-## Week 4: 
+## Week 4:
