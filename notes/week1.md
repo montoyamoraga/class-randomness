@@ -4,7 +4,13 @@
 
 ### Randomness
 
-[Randomness, Wikipedia](https://en.wikipedia.org/wiki/Randomness)
+[Randomness](https://en.wikipedia.org/wiki/Randomness) is all around us. From weather, to a roll of the dice, to the noise that we hear. Randomness is the the lack of patterns or predictability in events.
+
+Even if we can define a limited set of possible states of a system, such as a 6-sided die, we can't accurately predict what will be the output of a system with randomness on it.
+
+In this class we will use computers to create mathematical models of randomness that will allow us to quickly begin to incorporate generative and unpredictable outcomes into your art practice.
+
+Some examples:
 
 [John Cage - Chance, Wikipedia](https://en.wikipedia.org/wiki/John_Cage#Chance)
 
@@ -17,11 +23,19 @@ Wind: [Weibull distribution, Wikipedia](https://en.wikipedia.org/wiki/Weibull_di
 
 ### Randomness and computers
 
+Computers are cool, they can crunch numbers at a very fast speed, store and retrieve information from memories and sensors, and can communicate with other computers too.
+
+Computers are not able to produce true random numbers, but pseudorandom numbers. Today we will write code that produces pseudorandom numbers and analyze its shortcoming and strengths, and also check a method that lets our computer communicate with the outside world and thus produce true random numbers, yay.
+
+More information:
+
 * [Pseudorandomness, Wikipedia](https://en.wikipedia.org/wiki/Pseudorandomness)
 * [How computers generate random numbers, How-To Geek](https://www.howtogeek.com/183051/htg-explains-how-computers-generate-random-numbers/)
 * [Introducion to randomness and random numbers, random.org](https://www.random.org/randomness/)
 
 ### Uniform and normal (Gaussian) distributions
+
+
 
 [Uniform distribution](https://en.wikipedia.org/wiki/Uniform_distribution_(continuous)):
 
