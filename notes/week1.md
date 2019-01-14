@@ -16,7 +16,7 @@ We will encourage good manners and good practices in programming, such as using 
 
 In programming languages, we can write comments: lines of code that are skipped by the computer and are only intended for human reading. They are useful for documentation and for explaining what each block of code does. In Python, if you type a "#" at the beginning of the line, it becomes a comment. Comments are also useful to skip lines of code that are buggy or we are testing, and instead of deleting we can keep them for future reference.
 
-Write the following script: [00-testing.py](../code/00-testing.py)
+Write the following script: [00-testing.py](./../code/week1/00-testing.py)
 
 To run this code, execute it on the command-line with the *python* command:
 
