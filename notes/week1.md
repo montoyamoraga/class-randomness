@@ -10,16 +10,20 @@ Even if we can define a limited set of possible states of a system, such as a 6-
 
 In this class we will use computers to create mathematical models of randomness that will allow us to quickly begin to incorporate generative and unpredictable outcomes into your art practice.
 
-Some examples:
+Some examples of randomness and art:
 
-[John Cage - Chance, Wikipedia](https://en.wikipedia.org/wiki/John_Cage#Chance)
-
-[Papá o 36 mil juicios de un mismo suceso (2008), film by Leonardo Medel](https://www.imdb.com/title/tt1334552/)
+* [Chance book, Edited by Margaret Iversen, ](https://mitpress.mit.edu/books/chance): book by Whitechapel Gallery and MIT Press.
+* [Dada](https://en.wikipedia.org/wiki/Dada): art movement, very name was supposedly chosen at random from a dictionary.
+* [](https://twitter.com/the_ephemerides)
+* [The Infinite Campaign](https://lav.io/projects/the-infinite-campaign/): artwork by [Sam Lavigne](http://lav.io/), that automatically generates and posts an infinite series of video ad campaigns.
+* [John Cage, Wikipedia](https://en.wikipedia.org/wiki/John_Cage), John Cage is a composer who after 1951 introduced chance procedures to all his music, and relied heavily on the [I Ching](https://en.wikipedia.org/wiki/I_Ching).
+* [Papá o 36 mil juicios de un mismo suceso (2008)](https://www.imdb.com/title/tt1334552/): a movie by [Leonardo Medel](https://www.imdb.com/name/nm3223128/), a movie with more than 36,000 versions, a new version is generated every time it is played, thanks to [DVD](https://en.wikipedia.org/wiki/DVD) technology.
+* [Wikipedia random article](https://en.wikipedia.org/wiki/Special:Random): Wikipedia allows you to jump to a random article.
+* [Wu-Tang Name Generator](http://www.mess.be/inickgenwuname.php):
 
 Die throwing: 6 outcomes, uniform.
 Coin throwing: heads or tails, uniform.
 Wind: [Weibull distribution, Wikipedia](https://en.wikipedia.org/wiki/Weibull_distribution)
-
 
 ### Randomness and computers
 
