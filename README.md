@@ -99,8 +99,10 @@ TODO: Maybe for real-time collaboration, we should set up a Google Doc so you ca
 
 * Randomness
 * Randomness and computers
-* Gaussian and uniform distributions
-* Poisson and Markov chains
+* Uniform distribution
+* Normal/Gaussian distribution
+* Poisson distribution
+* Markov chains
 * Normalization of signals
 * Python for math and randomness
 * Randomness on the internet: [random.org](https://www.random.org/)

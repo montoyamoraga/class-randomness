@@ -19,11 +19,7 @@ Some examples of randomness and art:
 * [John Cage, Wikipedia](https://en.wikipedia.org/wiki/John_Cage), John Cage is a composer who after 1951 introduced chance procedures to all his music, and relied heavily on the [I Ching](https://en.wikipedia.org/wiki/I_Ching).
 * [Papá o 36 mil juicios de un mismo suceso (2008)](https://www.imdb.com/title/tt1334552/): a movie by [Leonardo Medel](https://www.imdb.com/name/nm3223128/), a movie with more than 36,000 versions, a new version is generated every time it is played, thanks to [DVD](https://en.wikipedia.org/wiki/DVD) technology.
 * [Wikipedia random article](https://en.wikipedia.org/wiki/Special:Random): Wikipedia allows you to jump to a random article.
-* [Wu-Tang Name Generator](http://www.mess.be/inickgenwuname.php):
-
-Die throwing: 6 outcomes, uniform.
-Coin throwing: heads or tails, uniform.
-Wind: [Weibull distribution, Wikipedia](https://en.wikipedia.org/wiki/Weibull_distribution)
+* [Wu-Tang Name Generator](http://www.mess.be/inickgenwuname.php), Childish Gambino got his name from this app.
 
 ### Randomness and computers
 
@@ -37,25 +33,28 @@ More information:
 * [How computers generate random numbers, How-To Geek](https://www.howtogeek.com/183051/htg-explains-how-computers-generate-random-numbers/)
 * [Introducion to randomness and random numbers, random.org](https://www.random.org/randomness/)
 
-### Uniform and normal (Gaussian) distributions
+### Uniform  distribution
 
+[Uniform distributions](https://en.wikipedia.org/wiki/Uniform_distribution_(continuous)) are those where all possible results are equally probable. Some real-world examples include:
 
+* Die throwing: 6 outcomes (1,2,3,4,5,6), all equally probable.
+* Coin throwing: 2 outcomes (heads, tails), all equally probable.
 
-[Uniform distribution](https://en.wikipedia.org/wiki/Uniform_distribution_(continuous)):
+### Normal/Gaussian distribution
 
-random.uniform(a, b)
+[Normal distribution](https://en.wikipedia.org/wiki/Normal_distribution) are those where there there is a mean and a
 
-Return a random floating point number N such that a <= N <= b for a <= b and b <= N <= a for b < a.
+### Poisson distribution
 
-[Normal distribution](https://en.wikipedia.org/wiki/Normal_distribution)
+[Poisson distribution](https://en.wikipedia.org/wiki/Poisson_distribution) is useful for modeling the number of times an event occurs in an interval of time or space, if these events occur with a known constant rate and independently of the time or distance since the last event.
 
-random.gauss(mu, sigma)
+### Markov chains
 
-Gaussian distribution. mu is the mean, and sigma is the standard deviation.
+[Markov chains](https://en.wikipedia.org/wiki/Markov_chain) are useful for modelling possible events in which the probability of each event depends only on the state attained in the previous event.
 
-### Poisson and Markov chains
+### Other distributions
 
-
+[Weibull distribution, Wikipedia](https://en.wikipedia.org/wiki/Weibull_distribution) is used for modeling wind speed distributions.
 
 ### Python for math and randomness
 
@@ -98,6 +97,21 @@ This example was easy to expand, since we went from one variable to three of the
 Let's write a Python code that creates one thousand random numbers at a time.
 
 [03-thousand-random-numbers](./../code/week1/03-thousand-random-numbers.py)
+
+TODO: example with uniform and gauss distributions
+
+random.uniform(a, b)
+
+Return a random floating point number N such that a <= N <= b for a <= b and b <= N <= a for b < a.
+
+
+
+random.gauss(mu, sigma)
+
+Gaussian distribution. mu is the mean, and sigma is the standard deviation.
+
+
+
 
 ### Randomness on the internet: [random.org](https://www.random.org/)
 
