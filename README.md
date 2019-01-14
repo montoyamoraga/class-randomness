@@ -157,13 +157,16 @@ Create a video art piece that uses randomness.
 
 ## Additional resources
 
+* [Automating video, by Sam Lavigne](https://github.com/antiboredom/automating-video-itp)
+* [Detourning the web, by Sam Lavigne](https://github.com/antiboredom/detourning-the-web-2018)
 * [FLOSS Manuals: Pure Data](http://write.flossmanuals.net/pure-data/)
 * [Learn enough command line to be dangerous](https://www.learnenough.com/command-line-tutorial)
 * [Python for beginners](https://www.pythonforbeginners.com/)
 * [p5js reference](https://p5js.org/reference/)
 * [p5.js tutorials](https://p5js.org/learn/)
 * [p5.js editor](https://editor.p5js.org/)
-* [Tracery tutorial by Allison Parrish](http://air.decontextualize.com/tracery/)
+* [Reading and writing electronic text, by Allison Parrish](http://rwet.decontextualize.com/)
+* [Tracery tutorial, by Allison Parrish](http://air.decontextualize.com/tracery/)
 
 
 
