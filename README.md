@@ -87,7 +87,7 @@ I would love it if everyone would upload the code they write using GitHub to sha
 
 If you want to start using Git over GitHub, I suggest these resources:
 
-* [GitHub notes](/github-notes.md), short tutorial written for this class.
+* [installation notes](/installation.md), instructions for installing Git and GitHub.
 * [GitHub for Desktop](https://desktop.github.com/), free desktop app for GitHub.
 * [Learn enough](https://www.learnenough.com/), free online books about command line, text editor, and git.
 

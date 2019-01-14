@@ -1,10 +1,11 @@
 # Installation
 
-This document details the installation of software required for the class [Randomness is all around us](https://github.com/montoyamoraga/class-randomness-is-all-around) by [Aarón Montoya-Moraga](http://montoyamoraga.io/).
+This document details the installation of software required and suggested for the class [Randomness is all around us](https://github.com/montoyamoraga/class-randomness-is-all-around) by [Aarón Montoya-Moraga](http://montoyamoraga.io/).
 
 ## Contents
 
 * [ChucK](#chuck)
+* [Git and GitHub](#git-and-github)
 * [Processing](#processing)
 * [Pure Data](#pure-data)
 * [Python 3](#python-3)
@@ -21,6 +22,15 @@ ChucK is a programming language for real-time sound synthesis and music creation
 * Download the correct installer for your operating system, either Linux, Mac or Windows.
 * Follow the instructions of the installer.
 * The name of the application installed is *miniAudicle*.
+
+## Git and GitHub
+
+Git is a version control system. It allows you both store your code and its history.
+
+In Git jargon, folders become *repositories*.
+
+GitHub is a way of hosting your repositories on the cloud.
+
 
 ## Processing
 
