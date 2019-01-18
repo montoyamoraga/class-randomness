@@ -1,7 +1,7 @@
 # 00-testing.py
-# written by X
+# written by montoyamoraga
 # runs with Python3
-# date: yyymmdd
+# date: 20190114
 
 # script that prints a string
 
