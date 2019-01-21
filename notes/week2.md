@@ -8,7 +8,9 @@ Computers are cool for crunching numbers.
 
 Computers were first used to control other musical instruments.
 
-Computers are cool because the
+Computers were first able to synthesize and manipulate sound in an offline way, as in you had to render and hear your results afterwards.
+
+Modern portable computers are now able to both synthesize and manipulate sound in realtime, and allow you to hear your results live. There is always latency, since computers are digital and in order to feed to speakers or headphones, it needs to be transformed to analog.
 
 ## Fourier transform
 
@@ -25,8 +27,11 @@ Sine waves as building blocks of any sound.
 Sine waves are cool because they can be identified without ambiguity with just 3 parameters:
 
 * Frequency
-* Aamplitude
+* Amplitude
 * Phase
+
+
+* [An Interactive Introduction to Fourier Transforms](http://www.jezzamon.com/fourier/index.html), by [Jez Swanson](https://github.com/Jezzamonn).
 
 ### Psychoacoustics
 
@@ -39,25 +44,36 @@ The physical parameters of sound waves are correlated with perceptual parameters
 |Amplitude     |Volume          |
 |Phase         |None            |
 
-
 Importance of computers to be able to synthesize any sound
 
 
 
 ### Software for computer music
 
-* CSound
-* Max, Cycling '74
-* Pure Data, Miller Puckette, open-source, multiplatform, Windows
-* Sonic Pi
-* SuperCollider
-* TidalCycles
+* [CSound](https://en.wikipedia.org/wiki/Csound)
+* [Max](https://en.wikipedia.org/wiki/Max_(software)), Cycling '74
+* [Pure Data](https://en.wikipedia.org/wiki/Pure_Data), Miller Puckette, open-source, multiplatform, Windows
+* [Sonic Pi](https://en.wikipedia.org/wiki/Sonic_Pi)
+* [SuperCollider](https://en.wikipedia.org/wiki/Sonic_Pi)
+* [TidalCycles](https://en.wikipedia.org/wiki/TidalCycles)
+
+### Conferences
+
+* [International Computer Music Conference](http://www.computermusic.org/)
+* [International Conference on Live Coding](https://iclc.livecodenetwork.org/)
+* [International Conference on New Interfaces for Musical Expression](http://www.nime.org/)
+
+### Research centers
+
+* [IRCAM](https://www.ircam.fr/)
 
 ### Famous examples
 
-* Aphex Twin
+* [1-Bit Symphony](http://www.1bitsymphony.com/), by [Tristan Perich](https://en.wikipedia.org/wiki/Tristan_Perich).
 
-* Björk, Reactable
+* [Computer Controlled Acoustic Instruments pt2](https://en.wikipedia.org/wiki/Computer_Controlled_Acoustic_Instruments_pt2), by [Aphex Twin](https://en.wikipedia.org/wiki/Aphex_Twin).
+
+* [Reactable](http://reactable.com/), developed at [Universitat Pompeu Fabra](https://www.upf.edu/)
 
 * Brian Eno
 
@@ -65,7 +81,7 @@ Importance of computers to be able to synthesize any sound
 
 * Radiohead, Jonny Greenwood, Max patches, thekingofgear.com, The King of Limbs.
 
-* Tristan Perich
+
 
 ## Places
 
