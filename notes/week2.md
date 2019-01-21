@@ -73,7 +73,7 @@ Importance of computers to be able to synthesize any sound
 
 * [Computer Controlled Acoustic Instruments pt2](https://en.wikipedia.org/wiki/Computer_Controlled_Acoustic_Instruments_pt2), by [Aphex Twin](https://en.wikipedia.org/wiki/Aphex_Twin).
 
-* [Reactable](http://reactable.com/), developed at [Universitat Pompeu Fabra](https://www.upf.edu/)
+* [Reactable](http://reactable.com/), developed at [Universitat Pompeu Fabra](https://www.upf.edu/) in Barcelona, Spain, and used by [Björk]()
 
 * Brian Eno
 
@@ -92,11 +92,15 @@ Importance of computers to be able to synthesize any sound
 
 Psychoacoustics
 
-Experiment with sine waves, max frequency hearing range, TODO, link to Youtube.
+* [20Hz to 20kHz (Human Audio Spectrum)](https://www.youtube.com/watch?v=qNf9nzvnd1k), experiment where sine wave frequency ramps exponentially from 20 Hz to 20 kHz.
 
 Linear vs logarithm and exponentials.
 
+
+
 Practical application: faders in mixing consoles
+
+
 
 ### Pure Data environment
 
