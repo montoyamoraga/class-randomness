@@ -98,9 +98,11 @@ We will now install Python 3 and make it available to use from our [command-line
 
 ### Python 3 installation for Linux
 
-Go to [python.org/](https://www.python.org/) and download the latest Python 3 release from [Python source releases section](https://www.python.org/downloads/source/).
+There are two options I recommend, no order in particular:
 
-Another option I recommend is installing the [Anaconda Python distribution](https://www.anaconda.com/).
+* Go to [python.org/](https://www.python.org/) and download the latest Python 3 release from [Python source releases section](https://www.python.org/downloads/source/).
+
+* Installing the [Anaconda Python distribution](https://www.anaconda.com/).
 
 ### Python 3 installation for Mac
 
@@ -126,15 +128,17 @@ To check if you already have installed Python 3 in your computer, try running th
 python3
 ```
 
-If you see the following screen, you already have Python 3 installed and you are done, yay.
+If you see the following screen, you already have Python 3 installed, yay.
 
 ![alt text](https://github.com/montoyamoraga/class-randomness-is-all-around/raw/master/pics/week1-python3-example.png "Python3 example")
 
-If not, continue with these instructions to install Python3.
+If you have or not Python 3 installed, I highly suggest installing the package manager [homebrew](https://brew.sh), which will make it easy to install other tools we will use later in the class. homebrew is my favorite method for installing Python3 on your Mac and not having conflicts with the default Python2. I also use it for installing tools such as [ffmpeg](https://www.ffmpeg.org/) and [youtube-dl](https://rg3.github.io/youtube-dl/), which we will use in week 4 of this class.
 
-I recommend installing first the package manager [homebrew](https://brew.sh), which will be helpful for other tools we will use later in the class.
+If you already installed Python3, you are done and you can stop following these instructions.
 
-After installing homebrew, install Python3 using the following command.
+If you still don't have Python3 installed, please continue following these instructions.
+
+After installing homebrew, you can install Python3 using the following command.
 
 ```bash
 brew install python3
