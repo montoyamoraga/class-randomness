@@ -115,6 +115,7 @@ The most important windows of miniAudicle are:
 ### Chuck examples
 
 * Sine wave oscillator
+* 
 
 
 ### Pure Data environment
