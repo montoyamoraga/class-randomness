@@ -1,4 +1,4 @@
-#N canvas 518 23 883 855 10;
+#N canvas 30 50 1359 776 10;
 #X text 17 70 inlets:;
 #X text 16 145 outlets:;
 #X text 18 31 input: audio;
