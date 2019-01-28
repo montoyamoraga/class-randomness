@@ -1,6 +1,6 @@
 # class-randomness-is-all-around
 
-## Week 3:
+## Week 3: Introduction to randomness for graphics with p5.js
 
 ### Human color perception
 
@@ -8,9 +8,11 @@ Additive and subtractive methods
 
 ### Introduction to [p5.js](https://p5js.org/)
 
+p5.js is a JavaScript library created by [Lauren McCarthy](http://lauren-mccarthy.com/), and part of the [Processing Foundation](https://processingfoundation.org/).
+
 ### Drawing basic shapes
 
-Coordinate system
+Coordinate system, explain origin.
 
 ellipse()
 
@@ -20,7 +22,13 @@ rect()
 
 rectMode()
 
-triangle()
+translate()
+
+### Colors in p5.js
+
+Explain stroke(), strokeWeight() and fill().
+
+Explain color variable.
 
 ### RGB / HSB color models
 
@@ -33,3 +41,5 @@ Add examples with random colors with RGB and HSB
 ### Interactivity with mouse and keyboard
 
 Add examples with mouse, keyboard, using if statements.
+
+### Interactivity with random images from Google Imagess
