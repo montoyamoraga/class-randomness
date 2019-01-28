@@ -169,13 +169,15 @@ Common control parameters: amplitude, frequency.
 
 ### Noise
 
-random object in Pure Data
+* White
+* Pink
+* etc
 
 ### Sequencers
 
-Korg SQ-1
-
-Make Noise René: cartesian
+* [Korg SQ-1](https://www.korg.com/us/products/dj/sq_1/): compact reinterpretation of the classic Korg SQ-10.
+* [Make Noise René](http://www.makenoisemusic.com/modules/rene): cartesian sequencer.
+* [Polyend Seq](http://polyend.com/seq-midi-sequencer/): polyphonic MIDI sequencer.
 
 ### Parameters for a one-voice synthesizer
 
@@ -195,11 +197,8 @@ Make Noise René: cartesian
 |VCA   |Sustain  |Level after decay      |
 |VCA   |Release  |Time after sustain     |
 
-
 ### Sampling
 
-Use of samples
-
-Akai MPC
-
-Add patch for samples
+* [Akai MPC](https://en.wikipedia.org/wiki/Akai_MPC)
+* [Elektron Octatrack MkII](https://www.elektron.se/products/octatrack-mkii/)
+* [Tasty Chips GR-1](https://www.tastychips.nl/)
