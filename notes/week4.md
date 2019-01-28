@@ -21,3 +21,7 @@ Compressed vs uncompressed
 ### Stitching videos programmatically
 
 Show ffmpeg and youtube-dl
+
+### Lyric videos
+
+Download a poem and make a random lyric video with VidPy
