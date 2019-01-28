@@ -93,8 +93,6 @@ If you want to start using Git over GitHub, I suggest these resources:
 
 TODO: Maybe for real-time collaboration, we should set up a Google Doc so you call can take notes and share them?
 
-
-
 ## Week 1: Introduction to randomness for numbers and text with Python
 
 ### Topics
@@ -126,11 +124,12 @@ Before starting the class, let's do short introductions [90 seconds timer](https
 
 Write a Python script that outputs random numbers in a creative way. Write a blog post about the way your Python script works, include your inspiration, your successes, your shortcomings, and failures. Include also your research links, and bibliography, and any doubts you have about randomness, Python, or anything we have seen so far.
 
-## Week 2: Introduction to randomness and sound art
+## Week 2: Introduction to randomness and sound with ChucK and Pure Data
 
 Topics:
 * Sound art and computer music
 * Human sound perception
+* ChucK
 * Pure Data environment
 * Oscillators
 * Noise
@@ -141,7 +140,7 @@ Topics:
 
 ### Week 2 assignment
 
-Create a sound art piece that uses randomness.
+Create a sound art piece that uses randomness, using either ChucK or Pure Data.
 
 ## Week 3: Introduction to randomness and computer graphics
 

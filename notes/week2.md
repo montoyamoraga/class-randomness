@@ -1,6 +1,6 @@
 # class-randomness-is-all-around
 
-## Week 2:  Introduction to randomness and sound art with Pure Data and ChucK
+## Week 2: Introduction to randomness and sound with ChucK and Pure Data
 
 ### Sound art and computer music
 
