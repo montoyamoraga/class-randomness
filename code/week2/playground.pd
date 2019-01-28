@@ -1,15 +1,15 @@
-#N canvas 30 23 1359 830 10;
+#N canvas 128 23 1016 855 10;
 #X obj 71 673 dac~;
 #X obj 72 649 *~ 0;
 #X obj 146 481 vsl 15 128 0 127 0 0 empty empty empty 0 -9 0 10 -262144
--1 -1 0 1;
+-1 -1 12700 1;
 #X obj 146 617 / 127;
 #X floatatom 146 640 5 0 0 0 - - -;
-#X floatatom 99 186 5 0 0 0 - - -;
+#X floatatom 136 187 5 0 0 0 - - -;
 #X msg 60 8 0;
 #X msg 60 31 1;
 #X msg 61 54 2;
-#X msg 61 78 3;
+#X msg 61 76 3;
 #X floatatom 58 187 5 0 0 0 - - -;
 #X msg 63 98 4;
 #X msg 64 121 5;
@@ -51,7 +51,27 @@
 #X text 204 432 sustain;
 #X text 254 432 release;
 #X text 157 349 cutoff frequency;
-#X obj 444 120 sequencer;
+#X obj 237 127 loadbang;
+#X msg 239 150 440;
+#X obj 184 242 loadbang;
+#X msg 257 283 10000;
+#X obj 313 327 loadbang;
+#X msg 313 363 100;
+#X msg 348 361 100;
+#X msg 386 361 0.8;
+#X msg 424 362 1000;
+#X obj 255 525 loadbang;
+#X msg 261 573 127;
+#X obj 379 92 metro 1000;
+#X obj 379 117 bng 15 250 50 0 empty empty empty 17 7 0 10 -262144
+-1 -1;
+#X obj 380 34 tgl 15 0 empty empty empty 17 7 0 10 -262144 -1 -1 0
+1;
+#X text 397 35 TURN ME ON FOR HEARING SOUND;
+#X msg 218 12 loadbang;
+#X floatatom 436 72 5 0 0 0 - - -;
+#X obj 215 35 bng 15 250 50 0 empty empty empty 17 7 0 10 -262144 -1
+-1;
 #X connect 1 0 0 0;
 #X connect 1 0 0 1;
 #X connect 2 0 3 0;
@@ -83,3 +103,24 @@
 #X connect 40 0 36 3;
 #X connect 41 0 42 0;
 #X connect 42 0 36 0;
+#X connect 49 0 50 0;
+#X connect 50 0 5 0;
+#X connect 51 0 17 0;
+#X connect 51 0 52 0;
+#X connect 52 0 21 0;
+#X connect 53 0 54 0;
+#X connect 53 0 55 0;
+#X connect 53 0 56 0;
+#X connect 53 0 57 0;
+#X connect 54 0 37 0;
+#X connect 55 0 38 0;
+#X connect 56 0 39 0;
+#X connect 57 0 40 0;
+#X connect 58 0 59 0;
+#X connect 59 0 2 0;
+#X connect 60 0 61 0;
+#X connect 61 0 34 0;
+#X connect 62 0 60 0;
+#X connect 64 0 66 0;
+#X connect 65 0 60 1;
+#X connect 66 0 9 0;
