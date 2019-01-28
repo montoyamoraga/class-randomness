@@ -15,7 +15,7 @@ SndBuf snare;
 // declare gain and connect to dac;
 Gain masterGain => dac;
 
-// gain starts muted
+// gain starts max volume
 1.0 => masterGain.gain;
 
 // connect each sound buffer to gain and then to dac;
@@ -48,11 +48,15 @@ snare.samples()   => snare.pos;
 200 => float bpm;
 // go from beats per minute to ms per step
 60 * 1000 / bpm => float msPerStep;
+
+// print to console
 <<< "msPerStep: " + msPerStep >>>;
 
+// infinite loop
 while(true) {
-    for (0 => currentStep; currentStep < maxStep; currentStep++) {
-        
+  // step sequencer
+  for (0 => currentStep; currentStep < maxStep; currentStep++) {
+
         if (currentStep == 0) {
             // 0 => clap.pos;
             // 0 => cowbell.pos;
@@ -103,13 +107,13 @@ while(true) {
             // 0 => snare.pos;
         }
         else if (currentStep == 7) {
-            0 => clap.pos;
-            // 0 => cowbell.pos;
+            // 0 => clap.pos;
+            0 => cowbell.pos;
             // 0 => hihat.pos;
             // 0 => kick.pos;
             // 0 => snare.pos;
         }
-        //let time flow
+        // let time flow
         msPerStep :: ms => now;
     }
 }

@@ -15,7 +15,7 @@ SndBuf snare;
 // declare gain and connect to dac;
 Gain masterGain => dac;
 
-// gain starts muted
+// gain starts at maximum volume
 1.0 => masterGain.gain;
 
 // connect each sound buffer to gain and then to dac;
@@ -39,12 +39,21 @@ hihat.samples()   => hihat.pos;
 kick.samples()    => kick.pos;
 snare.samples()   => snare.pos;
 
+10 => float maxRate;
+
 // random playback rates
-Math.random2f(-10, 10)   => clap.rate;
-Math.random2f(-10, 10) => cowbell.rate;
-Math.random2f(-10, 10)   => hihat.rate;
-Math.random2f(-10, 10)    => kick.rate;
-Math.random2f(-10, 10)   => snare.rate;
+Math.random2f(-maxRate, maxRate)   => clap.rate;
+Math.random2f(-maxRate, maxRate) => cowbell.rate;
+Math.random2f(-maxRate, maxRate)   => hihat.rate;
+Math.random2f(-maxRate, maxRate)    => kick.rate;
+Math.random2f(-maxRate, maxRate)   => snare.rate;
+
+// rate 0 is pause
+// rate 1 is normal speed
+// between 0 and 1 is slower
+// more than 1 is faster
+// less than 0 is backwards and everything else applies
+
 
 // step counter
 0 => int currentStep;
@@ -61,7 +70,7 @@ msPerStep/2 => float delta;
 
 while(true) {
     for (0 => currentStep; currentStep < maxStep; currentStep++) {
-        
+
         if (currentStep == 0) {
             // 0 => clap.pos;
             // 0 => cowbell.pos;

@@ -1,4 +1,4 @@
-#N canvas 30 50 1359 776 10;
+#N canvas 424 47 1016 802 10;
 #X text 17 50 inlets:;
 #X text 19 128 outlets:;
 #X text 16 86 trigger. bang \, to start;
@@ -55,7 +55,7 @@
 -1 -1;
 #X text 809 395 release ramp;
 #X obj 106 517 outlet~;
-#X text 21 15 amplifier~.pd;
+#X text 19 15 amplifier~.pd;
 #X obj 107 431 inlet~;
 #X text 19 32 amplifier;
 #X text 19 145 ADSR amplifiers \, between -1 and 1;
