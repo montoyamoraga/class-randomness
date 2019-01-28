@@ -10,6 +10,13 @@ Additive and subtractive methods
 
 p5.js is a JavaScript library created by [Lauren McCarthy](http://lauren-mccarthy.com/), and part of the [Processing Foundation](https://processingfoundation.org/).
 
+### How to setup
+
+Today we will use the p5.js editor, please create an account so you can save it.
+
+Another way to program with p5.js is downloading it from p5js.org and using a server.
+
+
 ### Drawing basic shapes
 
 Coordinate system, explain origin.
@@ -42,4 +49,4 @@ Add examples with random colors with RGB and HSB
 
 Add examples with mouse, keyboard, using if statements.
 
-### Interactivity with random images from Google Imagess
+### Interactivity with random images from Google Images
