@@ -189,10 +189,11 @@ Make Noise René: cartesian
 |VCF   |Type     |Choose LPF, HPF, BPF   |
 |VCF   |Frequency|Choose cutoff frequency|
 |VCF   |Resonance|Choose feedback        |
-|VCA   |
-|VCA   |
-|VCA   |
-|VCA   |
+|VCA   |Trigger  |Start ADSR envelope    |
+|VCA   |Attack   |Time silence to maximum|
+|VCA   |Decay    |Time max to sustain    |
+|VCA   |Sustain  |Level after decay      |
+|VCA   |Release  |Time after sustain     |
 
 
 ### Sampling
