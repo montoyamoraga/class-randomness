@@ -30,7 +30,6 @@ Sine waves are cool because they can be identified without ambiguity with just 3
 * Amplitude
 * Phase
 
-
 * [An Interactive Introduction to Fourier Transforms](http://www.jezzamon.com/fourier/index.html), by [Jez Swanson](https://github.com/Jezzamonn).
 
 ### Psychoacoustics
@@ -47,9 +46,9 @@ The physical parameters of sound waves are correlated with perceptual parameters
 Importance of computers to be able to synthesize any sound
 
 
-
 ### Software for computer music
 
+* [ChucK](http://chuck.cs.princeton.edu/)
 * [CSound](https://en.wikipedia.org/wiki/Csound)
 * [Max](https://en.wikipedia.org/wiki/Max_(software)), Cycling '74
 * [Pure Data](https://en.wikipedia.org/wiki/Pure_Data), Miller Puckette, open-source, multiplatform, Windows
@@ -81,8 +80,6 @@ Importance of computers to be able to synthesize any sound
 
 * Radiohead, Jonny Greenwood, Max patches, thekingofgear.com, The King of Limbs.
 
-
-
 ## Places
 
 * IRCAM
@@ -100,6 +97,24 @@ Linear vs logarithm and exponentials.
 
 Practical application: faders in mixing consoles
 
+
+### ChucK
+
+ChucK was developed by Ge Wang as part of his PhD thesis at Princeton.
+
+ChucK is used at both the [Princeton Laptop Orchestra (PLOrk)](https://puplork.github.io/) and the [Stanford Laptop Orchestra (SLOrk)](http://slork.stanford.edu/).
+
+To install ChucK, go to the [official website](http://chuck.cs.princeton.edu/), and install it. The software installed is called miniAudicle.
+
+miniAudicle is an environment that lets you run a virtual machine that executes your ChucK scripts.
+
+The most important windows of miniAudicle are:
+* Console Monitor: for logging system messages.
+* Virtual Machine Monitor: for starting and stopping the virtual machine, and managing the scripts being run.
+
+### Chuck examples
+
+* Sine wave oscillator
 
 
 ### Pure Data environment
