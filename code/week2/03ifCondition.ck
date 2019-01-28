@@ -41,5 +41,5 @@ else {
 // set gain
 0.2 => myOsc.gain;
 
-// let 0.1 minute pass
-0.1 :: minute => now;
+// let 0.001 hour pass
+0.001 :: hour => now;

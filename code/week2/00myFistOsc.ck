@@ -21,11 +21,8 @@ myOsc => dac;
 // gain range [0.0, 1.0]
 0.7 => myOsc.gain;
 
-1 :: second => now;
-
-
-
-
-
-// let 1 second pass
+// let one second pass
+// units of time should be unambiguous
+// samp, ms, second, minute, hour, day, week
+// time multiplier is double colon ::
 1 :: second => now;

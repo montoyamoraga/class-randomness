@@ -2,8 +2,8 @@
 // by aaron montoya-moraga
 // january 2019
 
-// oscillator, 440 Hz, 1 second long
-// same oscillator, 770 Hz, 2 second long
+// oscillator, 440 Hz, 1 second
+// same oscillator, 770 Hz, 2 seconds
 
 // print message to console monitor
 <<< "01differentNotes.ck" >>>;
@@ -14,11 +14,11 @@ SinOsc myOsc;
 // connect osc to dac
 myOsc => dac;
 
-// assign frequency of oscillator
+// assign oscillator frequency
 440 => myOsc.freq;
 
-// assign gain of oscillator
-// gain goes from 0.0 to 1.0
+// assign oscillator gain
+// gain range [0.0, 1.0]
 0.7 => myOsc.gain;
 
 // let 1 second pass
