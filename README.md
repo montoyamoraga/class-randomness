@@ -91,7 +91,12 @@ If you want to start using Git over GitHub, I suggest these resources:
 * [GitHub for Desktop](https://desktop.github.com/), free desktop app for GitHub.
 * [Learn enough](https://www.learnenough.com/), free online books about command line, text editor, and git.
 
-TODO: Maybe for real-time collaboration, we should set up a Google Doc so you call can take notes and share them?
+## Class videos
+
+* [week1 video](https://vimeo.com/314242448/9eb89abe24)
+* [week2 video](https://vimeo.com/314242065/d3e1b67ce5)
+* [week3 video]()
+* [week4 video]()
 
 ## Week 1: Introduction to randomness for numbers and text with Python
 
