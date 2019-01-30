@@ -10,10 +10,11 @@
 
 * [About](#about)
 * [Code of conduct](#code-of-conduct)
+* [Summary](#summary)
 * [Materials for the class](#materials-for-the-class)
 * [Methodology](#methodology)
 * [Installation](#installation)
-* [Summary](#summary)
+* [Class videos](#class-videos)
 * [Week 1: Numbers with Python](#week-1)
 * [Week 2: Audio with Pure Data](#week-2)
 * [Week 3: Image with p5.js](#week-3)
