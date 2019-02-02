@@ -94,8 +94,8 @@ If you want to start using Git over GitHub, I suggest these resources:
 
 ## Class videos
 
-* [week1 video](https://vimeo.com/314242448/9eb89abe24)
-* [week2 video](https://vimeo.com/314242065/d3e1b67ce5)
+* [week1 video](https://vimeo.com/314242448)
+* [week2 video](https://vimeo.com/314242065)
 * [week3 video]()
 * [week4 video]()
 
