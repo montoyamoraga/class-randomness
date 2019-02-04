@@ -67,10 +67,9 @@ p5.js is a JavaScript library created by [Lauren McCarthy](http://lauren-mccarth
 
 ### How to setup
 
-Today we will use the p5.js editor, please create an account so you can save it.
+Today we will use the [p5.js editor](https://editor.p5js.org/), please create an account so you can save it.
 
 Another way to program with p5.js is downloading it from p5js.org and using a server.
-
 
 ### Drawing basic shapes
 
@@ -88,9 +87,12 @@ translate()
 
 ### Colors in p5.js
 
-Explain stroke(), strokeWeight() and fill().
-
-Explain color variable.
+* color()
+* stroke()
+* noStroke()
+* strokeWeight()
+* fill()
+* noFill()
 
 ### p5.js color modes
 
@@ -100,13 +102,11 @@ By default, p5.js uses an RGB color model, with an 8-bit resolution, using value
 
 colorMode() changes the way p5.js interprets color data. By default, the parameters for fill(), stroke(), background(), and color() are defined by values between 0 and 255 using the RGB color model. This is equivalent to setting colorMode(RGB, 255). Setting colorMode(HSB) lets you use the HSB system instead. By default, this is colorMode(HSB, 360, 100, 100, 1). You can also use HSL.
 
-Add examples with random colors with RGB and HSB
-
 ### [White noise](https://en.wikipedia.org/wiki/White_noise), [pink noise](https://en.wikipedia.org/wiki/Pink_noise)
 
 ### [Brownian noise](https://en.wikipedia.org/wiki/Brownian_noise), [Perlin noise](https://en.wikipedia.org/wiki/Perlin_noise)
 
-### Server for loading files
+### Server for loading projects
 
 Two different options are suggested for running a server in your computer:
 
