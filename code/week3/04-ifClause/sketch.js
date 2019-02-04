@@ -1,11 +1,11 @@
 
 // global variables for configuration
 // variable number of ellipses drawn per frame
-let numberEllipses = 100;
+let numberShapes = 100;
 // variable for maximum diameter of ellipses
-let maxDiameter = 50;
+let maxSize = 50;
 // variable for controlling framerate
-let speed = 10;
+let speed = 3;
 
 // declaration of setup() function
 // setup() is executed once, at the beginning
@@ -34,19 +34,40 @@ function setup() {
 // draw() is executed after setup(), on a loop, 60 fps
 function draw() {
 
+// if clause
+// Math.random() is JavaScript for randomness
+// Math.random() return a number between [0.0, 1.0)
+if (Math.random() < 0.2) {
   // for loop to draw many ellipses per frame
-  for (let i = 0; i < numberEllipses; i++) {
+  for (let i = 0; i < numberShapes; i++) {
 
     // color for filling of 2d shapes
     // random amount of red, green, blue, alpha
     fill(random(255), random(255), random(255), random(255));
 
-    // random diameter
-    let diam = random(maxDiameter);
+    // random size
+    let size = random(maxSize);
 
-    //draw ellipse, random position, random diameter
-    ellipse(random(width), random(height), diam, diam);
+    // draw ellipse
+    ellipse(random(width), random(height), size, size);
   }
+} else {
+  // for loop to draw many ellipses per frame
+  for (let i = 0; i < numberShapes; i++) {
+
+    // color for filling of 2d shapes
+    // random amount of red, green, blue, alpha
+    fill(random(255), random(255), random(255), random(255));
+
+    // random size
+    let size = random(maxSize);
+
+    // draw rect
+    rect(random(width), random(height), size, size);
+  }
+}
+
+
 
 
 

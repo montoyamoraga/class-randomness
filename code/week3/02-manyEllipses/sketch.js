@@ -44,7 +44,7 @@ function draw() {
     let diam = random(maxDiameter);
 
     //draw ellipse, random position, random diameter
-    ellipse(random(width), random(width), diam, diam);
+    ellipse(random(width), random(height), diam, diam);
   }
 
 
