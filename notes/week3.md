@@ -61,7 +61,6 @@ Some software dealing with computer vision includes:
 * [OpenCV](https://opencv.org/)
 * [WebGazer.js](https://github.com/brownhci/WebGazer)
 
-
 ### Introduction to [p5.js](https://p5js.org/)
 
 p5.js is a JavaScript library created by [Lauren McCarthy](http://lauren-mccarthy.com/), and part of the [Processing Foundation](https://processingfoundation.org/).
@@ -93,7 +92,16 @@ Explain stroke(), strokeWeight() and fill().
 
 Explain color variable.
 
-### RGB / HSB color models
+### p5.js color modes
+
+By default, p5.js uses an RGB color model, with an 8-bit resolution, using values from 0 to 255.
+
+[p5js.org/reference/#/p5/colorMode](http://p5js.org/reference/#/p5/colorMode)
+
+colorMode() changes the way p5.js interprets color data. By default, the parameters for fill(), stroke(), background(), and color() are defined by values between 0 and 255 using the RGB color model. This is equivalent to setting colorMode(RGB, 255). Setting colorMode(HSB) lets you use the HSB system instead. By default, this is colorMode(HSB, 360, 100, 100, 1). You can also use HSL.
+
+
+
 
 Add examples with random colors with RGB and HSB
 
@@ -105,4 +113,21 @@ Add examples with random colors with RGB and HSB
 
 Add examples with mouse, keyboard, using if statements.
 
+
+
 ### Interactivity with random images from Google Images
+
+### Server for loading files
+
+Two different options are suggested for running a server in your computer:
+
+1. Google Chrome + Web Server for Chrome plugin
+
+* Open Google Chrome
+* Install [Web Server for Chrome](https://chrome.google.com/webstore/detail/web-server-for-chrome/ofhbbkphhbklhfoeikjpcbhemlocgigb/related?hl=en) plugin.
+* Open the plugin and use the "CHOOSE FOLDER" section to select the folder where your code is. In this case, I suggest using the "code" folder of the class.
+* Make sure the Web Server is "Started", there is an slider for turning it on.
+* Now your server is running on your computer on a certain port, by default is 8887, so you can visit the website [http://127.0.0.1:8887](http://127.0.0.1:8887), and navigate through your files.
+
+
+2.
