@@ -148,4 +148,4 @@ python -m SimpleHTTPServer
 python3 -m http.server
 ```
 
-* Go to [http://localhost:8000/](http://localhost:8000/)
+* Go to [http://localhost:8000/](http://localhost:8000/) on your browser.
