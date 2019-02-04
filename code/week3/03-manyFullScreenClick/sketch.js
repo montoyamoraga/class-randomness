@@ -12,7 +12,8 @@ let speed = 10;
 function setup() {
   // create a canvas for p5.js to draw in
   // createCanvas(width, height), measured in pixels
-  createCanvas(400, 400);
+  // width and height are p5.js variable
+  createCanvas(windowWidth, windowHeight);
 
   // change framerate, measured in frames per second
   frameRate(speed);
@@ -26,7 +27,7 @@ function setup() {
   // 2 values: grayscale + alpha, 0 transparent, 255 solid
   // 3 values: RGB, 0 is minimum, 255 is maximum
   // 4 values: RGBA, RGB + alpha
-  background(220, 255);
+  background(255);
 }
 
 // declaration of draw() function
@@ -37,8 +38,8 @@ function draw() {
   for (let i = 0; i < numberEllipses; i++) {
 
     // color for filling of 2d shapes
-    // random amount of red, green, blue
-    fill(random(255), random(255), random(255));
+    // random amount of red, green, blue, alpha
+    fill(random(255), random(255), random(255), random(255));
 
     // random diameter
     let diam = random(maxDiameter);
@@ -49,4 +50,16 @@ function draw() {
 
 
 
+}
+
+// function triggered when mouse is clicked
+function mouseClicked() {
+  // paint the background white
+  background(255);
+}
+
+// function triggered when window is resized
+function windowResized() {
+  // resize the canvas to make it full window again
+  resizeCanvas(windowWidth, windowHeight);
 }
