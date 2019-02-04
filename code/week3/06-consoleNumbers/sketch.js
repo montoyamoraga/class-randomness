@@ -1,12 +1,9 @@
 // global variables for configuration
-// variable number of ellipses drawn per frame
-let numberShapes = 10;
-// variable for maximum diameter of ellipses
-let maxSize = 50;
 // variable for controlling framerate
 let speed = 10;
-// variable for variation of position
-let delta = 100;
+// variables for perlin noise
+let x = 0.0;
+let delta = 0.01;
 
 // declaration of setup() function
 // setup() is executed once, at the beginning
@@ -64,4 +61,28 @@ function draw() {
     coinResult = "tails";
   }
   console.log("coin flip: " + coinResult);
+
+  // p5.js functions
+
+  // p5.js random() function
+  // 0 arguments: returns number between 0 and 1
+  // 1 argument: returns number between 0 and x-1
+  // 2 arguments: returns number inside range
+  console.log("random():" + random());
+  console.log("random(100): " + random(100));
+  console.log("random(102, 105): " + random(102, 105));
+
+  // randomGaussian(mean, standardDeviation)
+  console.log("randomGaussian(50, 5): " + randomGaussian(50, 5));
+
+  // random seed
+  // randomSeed(10);
+  // console.log("random() with seed: " + random() + ", " + random());
+
+  // Perlin noise
+  // update x;
+  // x = x + delta;
+  // let n = noise(x) * width;
+  // line(n, 0, n, height);
+
 }

@@ -100,22 +100,11 @@ By default, p5.js uses an RGB color model, with an 8-bit resolution, using value
 
 colorMode() changes the way p5.js interprets color data. By default, the parameters for fill(), stroke(), background(), and color() are defined by values between 0 and 255 using the RGB color model. This is equivalent to setting colorMode(RGB, 255). Setting colorMode(HSB) lets you use the HSB system instead. By default, this is colorMode(HSB, 360, 100, 100, 1). You can also use HSL.
 
-
-
-
 Add examples with random colors with RGB and HSB
 
 ### [White noise](https://en.wikipedia.org/wiki/White_noise), [pink noise](https://en.wikipedia.org/wiki/Pink_noise)
 
 ### [Brownian noise](https://en.wikipedia.org/wiki/Brownian_noise), [Perlin noise](https://en.wikipedia.org/wiki/Perlin_noise)
-
-### Interactivity with mouse and keyboard
-
-Add examples with mouse, keyboard, using if statements.
-
-
-
-### Interactivity with random images from Google Images
 
 ### Server for loading files
 
