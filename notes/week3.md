@@ -130,4 +130,22 @@ Two different options are suggested for running a server in your computer:
 * Now your server is running on your computer on a certain port, by default is 8887, so you can visit the website [http://127.0.0.1:8887](http://127.0.0.1:8887), and navigate through your files.
 
 
-2.
+2. Use Python for setting up a server
+
+* cd to the folder
+
+```bash
+cd code/
+```
+
+* Use Python2 or Python 3 for setting up a server
+
+```bash
+python -m SimpleHTTPServer
+```
+
+```bash
+python3 -m http.server
+```
+
+* Go to [http://localhost:8000/](http://localhost:8000/)
