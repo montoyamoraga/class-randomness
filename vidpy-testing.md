@@ -69,6 +69,8 @@ source env/bin/activate
 pip3 install vidpy
 ```
 
+To test your VidPy installation, run the script test.py, on this repository's [code/week4/test.py](code/week4/test.py), and you should get a video like the manifesto.mp4 on the same folder.
+
 ### youtube-dl
 
 You can install youtube-dl with homebrew,, using the terminal command:
@@ -115,6 +117,10 @@ source env/bin/activate
 ```bash
 pip3 install vidpy
 ```
+
+To test your VidPy installation, run the script test.py, on this repository's [code/week4/test.py](code/week4/test.py), and you should get a video like the manifesto.mp4 on the same folder.
+
+To test your VidPy installation, run the script test.py, on this repository's [code/week4/test.py](code/week4/test.py), and you should get a video like the manifesto.mp4 on the same folder.
 
 ### ffmpeg and youtube-dl
 
