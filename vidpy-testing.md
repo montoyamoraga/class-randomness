@@ -77,7 +77,11 @@ You can install youtube-dl with homebrew,, using the terminal command:
 brew install youtube-dl
 ```
 
-You can also install it
+To try it, run the following command with any video you want. The example downloads the video for Talking Heads - Once In A Lifetime.
+
+```bash
+youtube-dl https://www.youtube.com/watch?v=5IsSpAOD6K8
+```
 
 ### ffmpeg
 
