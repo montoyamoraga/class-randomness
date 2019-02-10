@@ -112,10 +112,13 @@ source env/bin/activate
 pip3 install vidpy
 ```
 
-### ffmpeg
+### ffmpeg and youtube-dl
 
-To install ffmpeg on Windows, follow the instructions of their website: [https://www.ffmpeg.org/download.html](https://www.ffmpeg.org/download.html).
+These tools are optional, and I didn't have success installing them on my Windows computer, following their instructions:
 
-### youtube-dl
+* [https://www.ffmpeg.org/download.html](https://www.ffmpeg.org/download.html).
+* [https://rg3.github.io/youtube-dl/download.html](https://rg3.github.io/youtube-dl/download.html).
 
-To install youtube-dl on Windows, follow the instructions of their website: [https://rg3.github.io/youtube-dl/download.html](https://rg3.github.io/youtube-dl/download.html).
+I did have success using a cooler way of installing command-line tools which just came out, which is running Linux on a Windows using [Windows subsystem for Linux](https://docs.microsoft.com/en-us/windows/wsl/install-win10) and installing the new [Homebrew for Linux](https://brew.sh/2019/02/02/homebrew-2.0.0/).
+
+I'm a big fan of homebrew for Mac and this month (February 2019) they released homebrew for Linux, and with the help of Windows Subsystem for Linux I was able to do a super easy install of Ubuntu, which runs as an app on Windows, and then being able to use homebrew. I will write instructions on the future about how to achieve this.
