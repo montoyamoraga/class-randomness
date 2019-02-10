@@ -25,6 +25,9 @@ After installing melt, you can install VidPy with pip. Optionally you can first 
 python3 -m venv env
 ```
 
+To test your VidPy installation, run the script test.py, on this repository's [code/week4/test.py](code/week4/test.py), and you should get a video like the manifesto.mp4 on the same folder.
+
+
 ```
 source env/bin/activate
 ```
@@ -117,8 +120,6 @@ source env/bin/activate
 ```bash
 pip3 install vidpy
 ```
-
-To test your VidPy installation, run the script test.py, on this repository's [code/week4/test.py](code/week4/test.py), and you should get a video like the manifesto.mp4 on the same folder.
 
 To test your VidPy installation, run the script test.py, on this repository's [code/week4/test.py](code/week4/test.py), and you should get a video like the manifesto.mp4 on the same folder.
 
