@@ -11,7 +11,23 @@ Fo week 4 we will use:
 
 ### VidPy
 
+If you want to follow the instructions from the VidPy official website, click here: [https://antiboredom.github.io/vidpy/installation.html#ubuntu-debian](https://antiboredom.github.io/vidpy/installation.html#ubuntu-debian).
+
+To install VidPy, you will need to first install [melt](https://www.mltframework.org/docs/melt/):
+
+```bash
+sudo apt-get install melt
+```
+
+After installing melt, you can install VidPy with pip. Optionally you can first create a [virtual environment](virtual-environment.md) and install VidPy on it.
+
+```bash
+pip install vidpy
+```
+
 ### ffmpeg
+
+To install ffmpeg on Linux, follow the instructions of their website: [https://www.ffmpeg.org/download.html](https://www.ffmpeg.org/download.html).
 
 ### youtube-dl
 
