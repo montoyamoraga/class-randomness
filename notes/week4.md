@@ -42,16 +42,7 @@ Today's North America, Japan, and South Korea's video transmission standards are
 
 This confusion was industry-wide in the early days of digital video software, with much software being written incorrectly -- the coders believing that only 29.97 images were expected each second, which was incorrect. While it was true that each picture element was polled and sent only 29.97 times per second, the pixel location immediately below that one was polled 1/60th of a second later -- part of a completely separate image for the next 1/60 second frame.
 
-Further reading:
-
-Facebook/Oculus created a new unit of time called flicker: [article](https://techcrunch.com/2018/01/22/facebook-invented-a-new-time-unit-called-the-flick-and-its-truly-amazing/), [GitHub](https://github.com/OculusVR/Flicks)
-
-
-### Introduction to [VidPy](https://antiboredom.github.io/vidpy/)
-
-VidPy is a Python library by [Sam Lavigne](http://lav.io/).
-
-
+Further reading: Facebook/Oculus created a new unit of time called flicker: [article](https://techcrunch.com/2018/01/22/facebook-invented-a-new-time-unit-called-the-flick-and-its-truly-amazing/), [GitHub](https://github.com/OculusVR/Flicks)
 
 ### Video file formats
 
@@ -60,14 +51,6 @@ A [video file format](https://en.wikipedia.org/wiki/Video_file_format) is  is a 
 We will be using for today's class [webm](https://en.wikipedia.org/wiki/WebM), [mp4](https://en.wikipedia.org/wiki/MPEG-4_Part_14), [mov](https://en.wikipedia.org/wiki/QuickTime_File_Format), among others.
 
 For playback of the videos we will use today, I suggest downloading the tool [VLC](https://www.videolan.org/vlc/index.html), a free and open source cross-platform multimedia player.
-
-
-
-### Frame rate manipulation
-
-30 fps, 10 fps, variable frame rate
-
-### Stitching videos programmatically
 
 ### youtube-dl command-line tool
 
@@ -79,8 +62,31 @@ To check the documentation of youtube-dl execute the following command.
 youtube-dl --help
 ```
 
-To download a YouTube video use the URL as argument. Let's download three videos from YouTube:
+To download a YouTube video use the URL as argument.
 
+```bash
+youtube-dl [URL]
+```
+
+If you want to check the available formats and resolutions, use the *-F* flag.
+
+```bash
+youtube-dl [URL] -F
+```
+
+You can use the *-f* flag and the code for that format to download it.
+
+```bash
+youtube-dl [URL] -f 4
+```
+
+To decide the output filename use the *-o* flag.
+
+```bash
+youtube-dl [URL] -o [FILENAME]
+```
+
+Let's download three videos from YouTube:
 
 [The White Stripes - The Hardest Button to Button](https://www.youtube.com/watch?v=K4dx42YzQCE)
 
@@ -127,6 +133,20 @@ ffmpeg -i björk\ -\ hunter-DnW77jmr-Xg.webm bjork.mp4
 ```bash
 ffmpeg -i St.\ Vincent\ -\ \'Los\ Ageless\'\ \(Official\ Video\)-h9TlaYxoOO8.mkv stvincent.mp4
 ```
+
+### Introduction to [VidPy](https://antiboredom.github.io/vidpy/)
+
+VidPy is a Python module created by [Sam Lavigne](http://lav.io/), based on the [MLT Multimedia Framework](https://www.mltframework.org/), and draws heavily from [MoviePy](https://github.com/Zulko/moviepy) by [Zulko](https://github.com/Zulko).
+
+
+
+
+### Frame rate manipulation
+
+30 fps, 10 fps, variable frame rate
+
+### Stitching videos programmatically
+
 
 ### Lyric videos
 
