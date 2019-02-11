@@ -137,17 +137,3 @@ ffmpeg -i St.\ Vincent\ -\ \'Los\ Ageless\'\ \(Official\ Video\)-h9TlaYxoOO8.mkv
 ### Introduction to [VidPy](https://antiboredom.github.io/vidpy/)
 
 VidPy is a Python module created by [Sam Lavigne](http://lav.io/), based on the [MLT Multimedia Framework](https://www.mltframework.org/), and draws heavily from [MoviePy](https://github.com/Zulko/moviepy) by [Zulko](https://github.com/Zulko).
-
-
-
-
-### Frame rate manipulation
-
-30 fps, 10 fps, variable frame rate
-
-### Stitching videos programmatically
-
-
-### Lyric videos
-
-Download a poem and make a random lyric video with VidPy
