@@ -1,4 +1,4 @@
-## example based on stitch Videos example from VidPy website
+## example based on Stitch Videos example from VidPy website
 ## https://antiboredom.github.io/vidpy/examples.html
 
 # import vidpy module
