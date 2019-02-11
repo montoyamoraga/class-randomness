@@ -4,6 +4,7 @@ This tutorial is for week 4. Let me know if you have any trouble installing the 
 
 Fo week 4 we will use:
 * [VidPy](https://antiboredom.github.io/vidpy/) Python module *(MANDATORY)*
+* [VLC](https://www.videolan.org/vlc/index.html) free and open source cross-platform multimedia player *(OPTIONAL)*
 * [ffmpeg](https://www.ffmpeg.org/) command-line tool *(OPTIONAL)*
 * [youtube-dl](https://rg3.github.io/youtube-dl/) command-line tool *(OPTIONAL)*
 
@@ -26,7 +27,6 @@ python3 -m venv env
 ```
 
 To test your VidPy installation, run the script test.py, on this repository's [code/week4/test.py](code/week4/test.py), and you should get a video like the manifesto.mp4 on the same folder.
-
 
 ```
 source env/bin/activate
