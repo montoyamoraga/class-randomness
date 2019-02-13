@@ -97,7 +97,7 @@ If you want to start using Git over GitHub, I suggest these resources:
 * [week1 video](https://vimeo.com/314242448)
 * [week2 video](https://vimeo.com/314242065)
 * [week3 video](https://vimeo.com/315425599)
-* [week4 video]()
+* [week4 video](https://vimeo.com/316912051)
 
 ## Week 1: Introduction to randomness for numbers and text with Python
 
