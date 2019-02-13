@@ -3,7 +3,7 @@
 from vidpy import Clip, Composition
 
 # video location in hard drive
-video = 'videos/video5.mp4'
+video = 'videos/video4.mp4'
 
 # canvas width and height
 canvasWidth = 1280

@@ -42,7 +42,7 @@ while y < canvasHeight:
     randomX = x + random.uniform(-delta, delta)
     randomY = y + random.uniform(-delta, delta)
     randomWidth = vidWidth + random.uniform(-delta, delta)
-    randomHeight = vidWidth + random.uniform(-delta, delta)
+    randomHeight = vidHeight + random.uniform(-delta, delta)
     clip.position(x=randomX, y=randomY, w=randomWidth, h=randomHeight)
 
     # fade in for 0.1 second
